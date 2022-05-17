@@ -9,6 +9,19 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/assets\/chonk.png" : {
+      "ft" : 32768,
+      "iS" : 1088557,
+      "oA" : 0,
+      "oAP" : "\/assets\/chonk.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -21,18 +34,163 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/hero\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 287983,
-      "jF" : 0,
+    "\/deploy\/img\/artmars 1.png" : {
+      "ft" : 32768,
+      "iS" : 260616,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oAP" : "\/deploy\/img\/artmars 1.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/chonk.png" : {
+      "ft" : 32768,
+      "iS" : 1088557,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/chonk.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/img\/Welcome Planet Background.png" : {
+      "ft" : 32768,
+      "iS" : 1742353,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/img\/Welcome Planet Background.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/marsrrsrs 1.png" : {
+      "ft" : 32768,
+      "iS" : 197332,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/marsrrsrs 1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/merrss 1.png" : {
+      "ft" : 32768,
+      "iS" : 181349,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/merrss 1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/rover 1.png" : {
+      "ft" : 32768,
+      "iS" : 386898,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/rover 1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/svg\/“.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/“.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/footer-facebook-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/footer-facebook-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/footer-instagram-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/footer-instagram-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/footer-twitter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/footer-twitter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/footer-youtube-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/footer-youtube-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/Nasa logo footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/Nasa logo footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/NASA_Worm_logo 2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/NASA_Worm_logo 2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/nasa-nav-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/nasa-nav-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -222,21 +380,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -251,6 +394,377 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/Montserrat-Italic-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/Montserrat-Italic-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/Montserrat-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/Montserrat-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/OFL.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/OFL.txt",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/README.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/README.txt",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Black.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Black.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-BlackItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-BlackItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Bold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-BoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-BoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraBold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraBoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraLight.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraLight.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraLightItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ExtraLightItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Italic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Light.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-LightItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-LightItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Medium.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-MediumItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-MediumItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Regular.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-SemiBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-SemiBoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Thin.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-Thin.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ThinItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Montserrat\/static\/Montserrat-ThinItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/OFL.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/OFL.txt",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/Raleway-Italic-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/Raleway-Italic-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/Raleway-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/Raleway-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/README.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/README.txt",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Black.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Black.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-BlackItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-BlackItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Bold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-BoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-BoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraBold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraBoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraLight.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraLight.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraLightItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ExtraLightItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Italic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Light.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-LightItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-LightItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Medium.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-MediumItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-MediumItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Regular.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-SemiBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-SemiBoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Thin.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-Thin.ttf",
+      "oF" : 0
+    },
+    "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ThinItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Montserrat,Raleway\/Raleway\/static\/Raleway-ThinItalic.ttf",
+      "oF" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -261,8 +775,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 673791564.33405399,
-    "displayValue" : "Joe-Web-2-InClass",
-    "displayValueWasSetByUser" : 0,
+    "displayValue" : "Elleah-Web-2-Final",
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-unblue",
     "iconImageWasSetByUser" : 0
   },

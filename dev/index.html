@@ -5,25 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600&display=swap"  
+rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Starting Template</title>
   </head>
 
   <body>
 
-    <h1>Hello World!</h1>
+    <header>
+      <div>
+          <section class="logo">
+            <img class="site-logo" src="/deploy/img/svg/nasa-nav-logo.svg" alt="Site Logo">
+          </section>
 
-    <!-- <header>
+          <!-- Mobile Nav Icon, Won't Display on Desktop & Up
+          <aside class="burger-container">
+              <button id="burger-btn">
+                  <i class="fa-solid fa-bars"></i>
+              </button>
+          </aside>-->
+          
+          <!-- Menu Alters Between Mobile/Tablet & Desktop
+          <nav id="main-menu">
+              <aside class="hide-for-lg">
+                 <button id="close-btn">
+                      <i class="fa-solid fa-xmark-large"></i>
+                 </button> 
+              </aside> -->
 
-    </header>
+            <nav id="main-menu">
+              <ul>
+                 <li><a href="#">Link 1</a></li>
+                 <li><a href="#">Link 2</a></li>
+                 <li><a href="#">Link 3</a></li>
+                 <li><a href="#">Link 4</a></li>
+              </ul>
+              <form action="#">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+          </nav>
+      </div>
+  </header>
 
-    <section>
+  <section class="welcome-page">
+    <img src="/deploy/img/img/Welcome Planet Background.png" alt="Hero Background">
+    <img class="header1-logo" src="/deploy/img/svg/NASA_Worm_logo 2.svg" alt="Header Worm Logo">
+    <h1>The global leader in space exploration.</h1>
+        <button>Learn More</button>
+        <h3>Scientific discovery, economic benefits, and inspiration for a new generation of explorers</h3>
+  </section>
 
-    </section>
+  <section class="galleries">
+    <h2>BROWSE POPULAR GALLERIES</h2>
+      <div class="gallery-nav">
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+          <div class="gallery-images">
+            <img src="/deploy/img/rover 1.png" alt="Gallery Image 1">
+                <p class="caption-1">Perseverance is roving on Mars</p>
+            <img src="/deploy/img/merrss 1.png" alt="Gallery Image 2">
+                <p class="caption-2">Rippled Mars</p>
+            <img src="/deploy/img/marsrrsrs 1.png" alt="Gallery Image 3">
+                <p class="caption-3">Mars at Ls 66°: Tharsis</p>
+            <img src="/deploy/img/artmars 1.png" alt="Gallery Image 4">
+                <p class="caption-4">Mars global surveyor artist concept</p>
+          </div>
+          <a href="#">See More</a>
+      </div>
+  </section>
 
-    <footer>
+  <section class="quote">
+    <img src="/deploy/img/svg/“.svg" alt="Quotation Mark">
+    <h2>Keep your eyes on the stars, and your feet on the ground.</h2>
+        <h3>Theodore Roosevelt</h3>
+  </section>
 
-    </footer> -->
+  <section class="missions">
+    <button>View all Missions</button>
+  </section>
+
+  <section class="articles">
+    <h2>FEATURED ARTICLES</h2>
+        <h3>STATION GEARS UP FOR SPACEWALKS WHILE CONDUCTING CANCER RESEARCH</h3>
+            <h4>BOB SMITH</h4>
+                <p>Spacewalk preparations and cancer research were among the activities scheduled aboard the International Space Station on Thursday. The Expedition 66 crew also unpacked a U.S. cargo craft and explored using virtual reality while exercising. NASA astronauts Raja Chari and Kayla Barron began readying the U.S. Quest airlock and collecting tools ahead...</p>
+                <a href="#">Read More</a>
+                    <h5>POSTED ON 2.24.22 IN SPACE STATIONS</h5>
+  </section>
+
+  <footer>
+    <div>
+      <img src="/deploy/img/svg/Nasa logo footer.svg" alt="Footer Worm Logo">
+    </div>
+        <div>
+          <a href="#">No Fear Act</a>
+          <a href="#">FOIA</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact NASA</a>
+          <a href="#">Office of Inspector General</a>
+          <a href="#">Office of Special Counsel</a>
+          <a href="#">Agency Financial Reports</a>
+        </div>
+            <div class="social-media-icons">
+              <img src="/deploy/img/svg/footer-twitter-logo.svg" alt="Twitter Logo">
+              <img src="/deploy/img/svg/footer-instagram-logo.svg" alt="Instagram Logo">
+              <img src="/deploy/img/svg/footer-youtube-logo.svg" alt="Youtube Logo">
+              <img src="/deploy/img/svg/footer-facebook-logo.svg" alt="Facebook Logo">
+            </div>
+
+
+  </footer>
+      
+      
+
+
+
 
     <script src="js/scripts-min.js"></script>
   </body>
