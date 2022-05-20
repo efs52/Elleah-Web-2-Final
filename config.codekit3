@@ -34,19 +34,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/artmars 1.png" : {
-      "ft" : 32768,
-      "iS" : 260616,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/artmars 1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/chonk.png" : {
       "ft" : 32768,
       "iS" : 1088557,
@@ -60,11 +47,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/Welcome Planet Background.png" : {
+    "\/deploy\/img\/img\/artmars1.png" : {
       "ft" : 32768,
-      "iS" : 1742353,
+      "iS" : 260616,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/Welcome Planet Background.png",
+      "oAP" : "\/deploy\/img\/img\/artmars1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,11 +60,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/marsrrsrs 1.png" : {
+    "\/deploy\/img\/img\/marsrrsrs1.png" : {
       "ft" : 32768,
       "iS" : 197332,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/marsrrsrs 1.png",
+      "oAP" : "\/deploy\/img\/img\/marsrrsrs1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,11 +73,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/merrss 1.png" : {
+    "\/deploy\/img\/img\/merrss1.png" : {
       "ft" : 32768,
       "iS" : 181349,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/merrss 1.png",
+      "oAP" : "\/deploy\/img\/img\/merrss1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,11 +86,24 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/rover 1.png" : {
+    "\/deploy\/img\/img\/rover1.png" : {
       "ft" : 32768,
       "iS" : 386898,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/rover 1.png",
+      "oAP" : "\/deploy\/img\/img\/rover1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/img\/WelcomePlanetBackground.png" : {
+      "ft" : 32768,
+      "iS" : 1742353,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/img\/WelcomePlanetBackground.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -162,21 +162,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/svg\/Nasa logo footer.svg" : {
+    "\/deploy\/img\/svg\/NASA_Worm_logo2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/svg\/Nasa logo footer.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/svg\/NASA_Worm_logo 2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/svg\/NASA_Worm_logo 2.svg",
+      "oAP" : "\/deploy\/img\/svg\/NASA_Worm_logo2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -187,6 +177,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/svg\/nasa-nav-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/Nasalogofooter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/Nasalogofooter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -454,6 +454,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
