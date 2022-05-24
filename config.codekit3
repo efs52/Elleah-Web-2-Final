@@ -47,11 +47,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/artmars1.png" : {
+    "\/deploy\/img\/images\/artmars1.png" : {
       "ft" : 32768,
       "iS" : 260616,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/artmars1.png",
+      "oAP" : "\/deploy\/img\/images\/artmars1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,11 +60,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/marsrrsrs1.png" : {
+    "\/deploy\/img\/images\/marsrrsrs1.png" : {
       "ft" : 32768,
       "iS" : 197332,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/marsrrsrs1.png",
+      "oAP" : "\/deploy\/img\/images\/marsrrsrs1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,11 +73,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/merrss1.png" : {
+    "\/deploy\/img\/images\/merrss1.png" : {
       "ft" : 32768,
       "iS" : 181349,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/merrss1.png",
+      "oAP" : "\/deploy\/img\/images\/merrss1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,11 +86,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/rover1.png" : {
+    "\/deploy\/img\/images\/rover1.png" : {
       "ft" : 32768,
-      "iS" : 386898,
+      "iS" : 134482,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/rover1.png",
+      "oAP" : "\/deploy\/img\/images\/rover1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,11 +99,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/img\/WelcomePlanetBackground.png" : {
+    "\/deploy\/img\/images\/WelcomePlanetBackground.png" : {
       "ft" : 32768,
       "iS" : 1742353,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/img\/WelcomePlanetBackground.png",
+      "oAP" : "\/deploy\/img\/images\/WelcomePlanetBackground.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -380,7 +380,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/articles.scss" : {
+    "\/dev\/scss\/sections\/_articles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -389,13 +389,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/articles.css",
+      "oAP" : "\/dev\/scss\/sections\/_articles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/galleries.scss" : {
+    "\/dev\/scss\/sections\/_galleries.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -404,13 +404,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/galleries.css",
+      "oAP" : "\/dev\/scss\/sections\/_galleries.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/missions.scss" : {
+    "\/dev\/scss\/sections\/_missions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -419,13 +419,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/missions.css",
+      "oAP" : "\/dev\/scss\/sections\/_missions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/quote.scss" : {
+    "\/dev\/scss\/sections\/_quote.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -434,13 +434,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/quote.css",
+      "oAP" : "\/dev\/scss\/sections\/_quote.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/welcome-page.scss" : {
+    "\/dev\/scss\/sections\/_welcome-page.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -449,11 +449,19 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/welcome-page.css",
+      "oAP" : "\/dev\/scss\/sections\/_welcome-page.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/sections\/whatisthis?.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/whatisthis?.code-workspace",
+      "oF" : 0
     },
     "\/dev\/scss\/styles.css" : {
       "aP" : 1,

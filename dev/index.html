@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600&display=swap"  
@@ -14,45 +15,46 @@ rel="stylesheet">
   </head>
 
   <body>
+      <main>
+            <header>
+                  <div>
+                      <section class="logo">
+                          <img class="site-logo" src="/deploy/img/svg/nasa-nav-logo.svg" alt="Site Logo">
+                      </section>
+      
+                          <!-- Mobile Nav Icon, Won't Display on Desktop & Up -->
+                          <aside class="burger-container">
+                            <button id="burger-btn">
+                              <i class="fa-solid fa-bars"></i>
+                            </button>
+                          </aside>
+              
+                          <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+                            <nav>
+                              <aside class="hide-for-lg">
+                                  <button id="close-btn">
+                                    <i class="fa-solid fa-xmark-large"></i>
+                                  </button> 
+                              </aside>
+                                <ul>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 2</a></li>
+                                    <li><a href="#">Link 3</a></li>
+                                    <li><a href="#">Link 4</a></li>
+                                  </ul>
+                                  <form action="#">
+                                    <input type="text" placeholder="Search">
+                                      <button>Search</button>
+                                  </form>
+                             </nav>
+                    </div>
+             </header>
+       </main>
 
-    <header>
-        <div>
-              <section class="logo">
-                  <img class="site-logo" src="/deploy/img/svg/nasa-nav-logo.svg" alt="Site Logo">
-              </section>
-
-          <!-- Mobile Nav Icon, Won't Display on Desktop & Up
-          <aside class="burger-container">
-              <button id="burger-btn">
-                  <i class="fa-solid fa-bars"></i>
-              </button>
-          </aside>-->
-          
-          <!-- Menu Alters Between Mobile/Tablet & Desktop
-          <nav id="main-menu">
-              <aside class="hide-for-lg">
-                 <button id="close-btn">
-                      <i class="fa-solid fa-xmark-large"></i>
-                 </button> 
-              </aside> -->
-
-              <nav id="main-menu">
-                  <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                  </ul>
-                  <form action="#">
-                    <input type="text" placeholder="Search">
-                    <button>Search</button>
-                  </form>
-              </nav>
-      </div>
-  </header>
+     
 
   <section class="welcome-page">
-      <img src="/deploy/img/img/WelcomePlanetBackground.png" alt="Hero Background">
+      <img src="/deploy/img/images/WelcomePlanetBackground.png" alt="Welcome Hero">
       <img class="header1-logo" src="/deploy/img/svg/NASA_Worm_logo2.svg" alt="Header Worm Logo">
         <h1>The global leader in space exploration.</h1>
           <button>Learn More</button>
@@ -69,13 +71,13 @@ rel="stylesheet">
           <li><a href="#">Link 4</a></li>
         </ul>
           <div class="gallery-images">
-            <img src="/deploy/img/rover1.png" alt="Gallery Image 1">
+            <img src="/deploy/img/images/rover1.png" alt="Gallery Image 1">
                 <p class="caption-1">Perseverance is roving on Mars</p>
-            <img src="/deploy/img/merrss1.png" alt="Gallery Image 2">
+            <img src="/deploy/img/images/merrss1.png" alt="Gallery Image 2">
                 <p class="caption-2">Rippled Mars</p>
-            <img src="/deploy/img/marsrrsrs1.png" alt="Gallery Image 3">
+            <img src="/deploy/img/images/marsrrsrs1.png" alt="Gallery Image 3">
                 <p class="caption-3">Mars at Ls 66°: Tharsis</p>
-            <img src="/deploy/img/artmars1.png" alt="Gallery Image 4">
+            <img src="/deploy/img/images/artmars1.png" alt="Gallery Image 4">
                 <p class="caption-4">Mars global surveyor artist concept</p>
           </div>
           <a href="#">See More</a>
@@ -83,9 +85,11 @@ rel="stylesheet">
   </section>
 
   <section class="quote">
-    <img src="/deploy/img/svg/“.svg" alt="Quotation Mark">
-    <h2>Keep your eyes on the stars, and your feet on the ground.</h2>
-        <h3>Theodore Roosevelt</h3>
+    <div>
+      <img src="/deploy/img/svg/“.svg" alt="Quotation Mark">
+      <h2>Keep your eyes on the stars, and your feet on the ground.</h2>
+      <h3>Theodore Roosevelt</h3>
+    </div>
   </section>
 
   <section class="missions">

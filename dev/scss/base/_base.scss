@@ -8,6 +8,12 @@ body{
     padding: 0px;
     background-color: #060b18;
 
+    .hide-for-lg{
+        @include lg{
+            display: none;
+        }
+    }
+
     h1, h2, h3, h4, h5 {
         color: #f8f9fa;
         font-family: 'raleway';
@@ -28,7 +34,10 @@ body{
     }
 
     ul{
-        list-style: none;
+        li{
+            list-style: none;
+        }
+        
     }
 
     button{
@@ -51,4 +60,15 @@ body{
             height: 33px;
         }
     }
+    .show-menu{
+        display: block !important;
+    }
+
+    .hide-for-lg{
+        @include lg{
+            display: none;
+        }
+    }
 }
+
+
