@@ -3,7 +3,23 @@
 ============= */
 
 .welcome-page{
+
+    background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
+    background-image: cover;
+    padding-top: 450px;
+    
+    .header1-logo{
+        padding-left: 100px;
+        border-bottom: 3px solid white;
+    }
+
+
+
+
+
     h1{
-        color: red;
+        color: white;
+        padding-top: 50px;
+        padding-left: 100px;
     }
 }

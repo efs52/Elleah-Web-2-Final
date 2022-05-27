@@ -7,7 +7,7 @@ nav {
 
 
     display: none;
-	background-color: blue;
+	background-color: $outer-space;
 	height: 100vh;
 	padding: 16px;
 	position: absolute;
@@ -15,7 +15,7 @@ nav {
 	top: 0;
 	width: 50vw;
 	@include lg {
-		background-color: white;
+		background-color: $outer-space;
 		display: block;
 		height: 100%;
 		padding: 0;
@@ -36,6 +36,7 @@ nav {
 		}
 	}
 	ul {
+		color: white;
 		height: 100%;
 		padding-top: 20%;
 		@include lg {
@@ -45,12 +46,13 @@ nav {
 			padding-top: 0;
 		}
 		li {
+			color: white;
 			display: flex;
 			justify-content: flex-end;
 			margin-bottom: 24px;
 			text-align: right;
 			@include lg {
-				border-left: 1px solid blue;
+				border-left: 1px solid;
 				margin-bottom: 0;
 				margin-left: 16px;
 				padding-left: 24px;
@@ -63,11 +65,11 @@ nav {
 				text-decoration: none;
 				transition: 0.25s;
 				@include lg {
-					color: blue;
+					color: white;
 				}
 				&:hover,
                 &:active {
-					color: blue;
+					color: white;
 				}
 			}
 			&:first-child {

@@ -192,6 +192,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/search_magnifying_glass.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/search_magnifying_glass.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -440,6 +450,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_welcome-page.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_welcome-page-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/sections\/_welcome-page.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -455,26 +477,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/whatisthis?.code-workspace" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/whatisthis?.code-workspace",
-      "oF" : 1
-    },
-    "\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -484,8 +486,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 1,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

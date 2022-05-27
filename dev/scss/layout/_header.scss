@@ -7,9 +7,9 @@ header{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     padding: 24px 0;
-    position: fixed;
     width: 100%;
-    background-color: $white;
+    background-color: $outer-space;
+    border-bottom: 1px solid white;
 
 
     div{
@@ -25,7 +25,7 @@ header{
         }
 
         .logo{
-            color: blue;
+            color: white;
             font-size: 40px;
         }
 
@@ -41,7 +41,7 @@ header{
             button{
                 border: none;
                 background-color: transparent;
-                color: blue;
+                color: white;
                 font-size: 20px;
 
                 &:hover{

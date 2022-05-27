@@ -357,6 +357,11 @@ body {
   padding: 0px;
   background-color: #060b18;
 }
+@media (min-width: 992px) {
+  body .hide-for-lg {
+    display: none;
+  }
+}
 body h1, body h2, body h3, body h4, body h5 {
   color: #f8f9fa;
   font-family: "raleway";
@@ -371,7 +376,7 @@ body a {
   color: #f8f9fa;
   font-family: "montserrat";
 }
-body ul {
+body ul li {
   list-style: none;
 }
 body button {
@@ -389,6 +394,14 @@ body form input {
   border-radius: 90px;
   width: 190px;
   height: 33px;
+}
+body .show-menu {
+  display: block !important;
+}
+@media (min-width: 992px) {
+  body .hide-for-lg {
+    display: none;
+  }
 }
 
 /* =============
@@ -418,9 +431,169 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: #060b18;
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vw;
+}
+@media (min-width: 992px) {
+  nav {
+    background-color: #060b18;
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav aside button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+nav aside button:hover {
+  cursor: pointer;
+}
+nav ul {
+  color: white;
+  height: 100%;
+  padding-top: 20%;
+}
+@media (min-width: 992px) {
+  nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+}
+nav ul li {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+@media (min-width: 992px) {
+  nav ul li {
+    border-left: 1px solid;
+    margin-bottom: 0;
+    margin-left: 16px;
+    padding-left: 24px;
+  }
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 992px) {
+  nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+  }
+}
+nav ul li a:link:hover, nav ul li a:link:active,
+nav ul li a:visited:hover,
+nav ul li a:visited:active {
+  color: white;
+}
+nav ul li:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  padding: 24px 0;
+  width: 100%;
+  background-color: #060b18;
+  border-bottom: 1px solid white;
+}
+header div {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger";
+}
+@media (min-width: 992px) {
+  header div {
+    grid-template-areas: "logo nav";
+  }
+}
+header div .logo {
+  color: white;
+  font-size: 40px;
+}
+header div .burger-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  header div .burger-container {
+    display: none;
+  }
+}
+header div .burger-container button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+header div .burger-container button:hover {
+  cursor: pointer;
+}
+
 /* =============
     Footer
 ============= */
+footer div {
+  display: grid;
+  grid-template-columns: 72px auto 72px;
+}
+
+/* =============
+    Welcome Page
+============= */
+.welcome-page {
+  background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
+  background-image: cover;
+  padding-top: 450px;
+}
+.welcome-page .header1-logo {
+  padding-left: 100px;
+  border-bottom: 3px solid white;
+}
+.welcome-page h1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+/* =============
+    Quote
+============= */
+.quote {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.quote div {
+  text-align: center;
+}
