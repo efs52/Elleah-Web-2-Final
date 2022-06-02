@@ -10,6 +10,17 @@
   padding-left: 100px;
   border-bottom: 3px solid white;
 }
+.welcome-page button {
+  background-color: #060b18;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  width: 220px;
+  height: 60px;
+  font-weight: 400;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 50px;
+}
 .welcome-page h1 {
   color: white;
   padding-top: 50px;

@@ -1,36 +1,34 @@
-Raleway Variable Font
-=====================
+Source Sans 3 Variable Font
+===========================
 
-This download contains Raleway as both variable fonts and static fonts.
+This download contains Source Sans 3 as both variable fonts and static fonts.
 
-Raleway is a variable font with this axis:
+Source Sans 3 is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Raleway/Raleway-VariableFont_wght.ttf
-  Raleway/Raleway-Italic-VariableFont_wght.ttf
+  Source_Sans_3/SourceSans3-VariableFont_wght.ttf
+  Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Raleway:
-  Raleway/static/Raleway-Thin.ttf
-  Raleway/static/Raleway-ExtraLight.ttf
-  Raleway/static/Raleway-Light.ttf
-  Raleway/static/Raleway-Regular.ttf
-  Raleway/static/Raleway-Medium.ttf
-  Raleway/static/Raleway-SemiBold.ttf
-  Raleway/static/Raleway-Bold.ttf
-  Raleway/static/Raleway-ExtraBold.ttf
-  Raleway/static/Raleway-Black.ttf
-  Raleway/static/Raleway-ThinItalic.ttf
-  Raleway/static/Raleway-ExtraLightItalic.ttf
-  Raleway/static/Raleway-LightItalic.ttf
-  Raleway/static/Raleway-Italic.ttf
-  Raleway/static/Raleway-MediumItalic.ttf
-  Raleway/static/Raleway-SemiBoldItalic.ttf
-  Raleway/static/Raleway-BoldItalic.ttf
-  Raleway/static/Raleway-ExtraBoldItalic.ttf
-  Raleway/static/Raleway-BlackItalic.ttf
+in those cases you can use the static font files for Source Sans 3:
+  Source_Sans_3/static/SourceSans3-ExtraLight.ttf
+  Source_Sans_3/static/SourceSans3-Light.ttf
+  Source_Sans_3/static/SourceSans3-Regular.ttf
+  Source_Sans_3/static/SourceSans3-Medium.ttf
+  Source_Sans_3/static/SourceSans3-SemiBold.ttf
+  Source_Sans_3/static/SourceSans3-Bold.ttf
+  Source_Sans_3/static/SourceSans3-ExtraBold.ttf
+  Source_Sans_3/static/SourceSans3-Black.ttf
+  Source_Sans_3/static/SourceSans3-ExtraLightItalic.ttf
+  Source_Sans_3/static/SourceSans3-LightItalic.ttf
+  Source_Sans_3/static/SourceSans3-Italic.ttf
+  Source_Sans_3/static/SourceSans3-MediumItalic.ttf
+  Source_Sans_3/static/SourceSans3-SemiBoldItalic.ttf
+  Source_Sans_3/static/SourceSans3-BoldItalic.ttf
+  Source_Sans_3/static/SourceSans3-ExtraBoldItalic.ttf
+  Source_Sans_3/static/SourceSans3-BlackItalic.ttf
 
 Get started
 -----------
@@ -74,7 +72,7 @@ License
 Please read the full license text (OFL.txt) to understand the permissions,
 restrictions and requirements for usage, redistribution, and modification.
 
-You can use them in your products & projects - print or digital,
+You can use them in your products & projects – print or digital,
 commercial or otherwise.
 
 This isn't legal advice, please consider consulting a lawyer and see the full

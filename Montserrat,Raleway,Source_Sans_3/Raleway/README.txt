@@ -1,36 +1,36 @@
-Montserrat Variable Font
-========================
+Raleway Variable Font
+=====================
 
-This download contains Montserrat as both variable fonts and static fonts.
+This download contains Raleway as both variable fonts and static fonts.
 
-Montserrat is a variable font with this axis:
+Raleway is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Montserrat/Montserrat-VariableFont_wght.ttf
-  Montserrat/Montserrat-Italic-VariableFont_wght.ttf
+  Raleway/Raleway-VariableFont_wght.ttf
+  Raleway/Raleway-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Montserrat:
-  Montserrat/static/Montserrat-Thin.ttf
-  Montserrat/static/Montserrat-ExtraLight.ttf
-  Montserrat/static/Montserrat-Light.ttf
-  Montserrat/static/Montserrat-Regular.ttf
-  Montserrat/static/Montserrat-Medium.ttf
-  Montserrat/static/Montserrat-SemiBold.ttf
-  Montserrat/static/Montserrat-Bold.ttf
-  Montserrat/static/Montserrat-ExtraBold.ttf
-  Montserrat/static/Montserrat-Black.ttf
-  Montserrat/static/Montserrat-ThinItalic.ttf
-  Montserrat/static/Montserrat-ExtraLightItalic.ttf
-  Montserrat/static/Montserrat-LightItalic.ttf
-  Montserrat/static/Montserrat-Italic.ttf
-  Montserrat/static/Montserrat-MediumItalic.ttf
-  Montserrat/static/Montserrat-SemiBoldItalic.ttf
-  Montserrat/static/Montserrat-BoldItalic.ttf
-  Montserrat/static/Montserrat-ExtraBoldItalic.ttf
-  Montserrat/static/Montserrat-BlackItalic.ttf
+in those cases you can use the static font files for Raleway:
+  Raleway/static/Raleway-Thin.ttf
+  Raleway/static/Raleway-ExtraLight.ttf
+  Raleway/static/Raleway-Light.ttf
+  Raleway/static/Raleway-Regular.ttf
+  Raleway/static/Raleway-Medium.ttf
+  Raleway/static/Raleway-SemiBold.ttf
+  Raleway/static/Raleway-Bold.ttf
+  Raleway/static/Raleway-ExtraBold.ttf
+  Raleway/static/Raleway-Black.ttf
+  Raleway/static/Raleway-ThinItalic.ttf
+  Raleway/static/Raleway-ExtraLightItalic.ttf
+  Raleway/static/Raleway-LightItalic.ttf
+  Raleway/static/Raleway-Italic.ttf
+  Raleway/static/Raleway-MediumItalic.ttf
+  Raleway/static/Raleway-SemiBoldItalic.ttf
+  Raleway/static/Raleway-BoldItalic.ttf
+  Raleway/static/Raleway-ExtraBoldItalic.ttf
+  Raleway/static/Raleway-BlackItalic.ttf
 
 Get started
 -----------
@@ -74,7 +74,7 @@ License
 Please read the full license text (OFL.txt) to understand the permissions,
 restrictions and requirements for usage, redistribution, and modification.
 
-You can use them in your products & projects - print or digital,
+You can use them in your products & projects – print or digital,
 commercial or otherwise.
 
 This isn't legal advice, please consider consulting a lawyer and see the full
