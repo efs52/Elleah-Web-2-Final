@@ -34,6 +34,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/html\/aboutpage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/aboutpage.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/chonk.png" : {
       "ft" : 32768,
       "iS" : 1088557,
