@@ -1,0 +1,63 @@
+/* =============
+    Galleries
+============= */
+
+.galleries{
+    background-color: #f8f9fa;
+
+    h2{
+        padding-top: 215px;
+        padding-bottom: 100px;
+        color: #060b18;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 48px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    ul {
+        text-align: center;
+		color: #060b18;
+        border-bottom: 2px solid $outer-space;
+		
+		@include lg {
+			align-items: center;
+			display: flex;
+			justify-content: flex-end;
+			padding-top: 0;
+		}
+		li {
+            text-align: center;
+			color: #060b18;
+			display: flex;
+			justify-content: flex-end;
+			margin-bottom: 24px;
+			@include lg {
+				border-left: 1px solid;
+				margin-bottom: 0;
+				margin-left: 16px;
+				padding-left: 24px;
+			}
+			a:link,
+            a:visited {
+				color: #060b18;
+				font-size: 20px;
+				font-weight: 300;
+				text-decoration: none;
+				transition: 0.25s;
+				@include lg {
+					color: #060b18;
+				}
+				&:hover,
+                &:active {
+					color: #060b18;
+				}
+			}
+			&:first-child {
+				border: none;
+			}
+		}
+	}
+}
