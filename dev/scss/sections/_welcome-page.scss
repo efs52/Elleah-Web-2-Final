@@ -7,15 +7,33 @@
     background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
     background-image: cover;
     padding-top: 450px;
+
+    h3{
+        margin-left: 100px;
+        align-items: center;
+        text-align: center;
+        font-family: "raleway";
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 63px;
+        border-top: 2px solid white;
+        padding-top: 100px;
+        padding-bottom: 210px;
+
+    }
+
+    .g1, .g2, .g3, .g4{
+        align-items: center;
+    }
     
     .header1-logo{
-        width: 173.31px;
-        height: 48.37px;
+        margin-left: 55px;
         padding-left: 100px;
         border-bottom: 3px solid white;
     }
 
     button{
+        margin-left: 150px;
         background-color: #060b18;
         font-family: 'Source Sans 3', sans-serif;
         font-size: 18px;
@@ -25,12 +43,8 @@
         color:#f8f9fa;
         border-color: #f8f9fa;
         border-radius: 50px;
-        
 
     }
-
-
-
 
 
     h1{

@@ -6,13 +6,28 @@
   background-image: cover;
   padding-top: 450px;
 }
+.welcome-page h3 {
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+  font-family: "raleway";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 63px;
+  border-top: 2px solid white;
+  padding-top: 100px;
+  padding-bottom: 210px;
+}
+.welcome-page .g1, .welcome-page .g2, .welcome-page .g3, .welcome-page .g4 {
+  align-items: center;
+}
 .welcome-page .header1-logo {
-  width: 173.31px;
-  height: 48.37px;
+  margin-left: 55px;
   padding-left: 100px;
   border-bottom: 3px solid white;
 }
 .welcome-page button {
+  margin-left: 150px;
   background-color: #060b18;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;

@@ -3,7 +3,50 @@
 ============= */
 
 .galleries{
-    background-color: #f8f9fa;
+	background-color: #f8f9fa;
+
+	.gallery-images{
+		background-color: #f8f9fa;
+		display: grid;
+		grid-template-columns: 50px auto auto 50px;
+		justify-content: center;
+		grid-template-areas:
+		". g1 g2 ."
+		". g3 g4 .";
+
+		.g1{
+			grid-area: g1;
+			.caption-1{
+				color: $outer-space;
+			}
+		}
+
+		.g2{
+			grid-area: g2;
+			.caption-2{
+				color: $outer-space;
+			}
+		}
+
+		.g3{
+			grid-area: g3;
+			.caption-3{
+				color: $outer-space;
+			}
+			
+		}
+
+		.g4{
+			grid-area: g4;
+			.caption-4{
+				color: $outer-space;
+			}
+		}
+	}
+
+	.g1, .g2, .g3, .g4{
+        padding: 30px;
+    }
 
     h2{
         padding-top: 215px;
@@ -21,21 +64,22 @@
         text-align: center;
 		color: #060b18;
         border-bottom: 2px solid $outer-space;
+		padding-bottom: 50px;
 		
 		@include lg {
 			align-items: center;
-			display: flex;
-			justify-content: flex-end;
-			padding-top: 0;
+			
+			justify-content: center;
+			padding-top: 0px;
 		}
 		li {
             text-align: center;
 			color: #060b18;
-			display: flex;
-			justify-content: flex-end;
+			
+			justify-content: center;
 			margin-bottom: 24px;
 			@include lg {
-				border-left: 1px solid;
+				
 				margin-bottom: 0;
 				margin-left: 16px;
 				padding-left: 24px;

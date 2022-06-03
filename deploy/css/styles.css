@@ -578,13 +578,28 @@ footer div {
   background-image: cover;
   padding-top: 450px;
 }
+.welcome-page h3 {
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+  font-family: "raleway";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 63px;
+  border-top: 2px solid white;
+  padding-top: 100px;
+  padding-bottom: 210px;
+}
+.welcome-page .g1, .welcome-page .g2, .welcome-page .g3, .welcome-page .g4 {
+  align-items: center;
+}
 .welcome-page .header1-logo {
-  width: 173.31px;
-  height: 48.37px;
+  margin-left: 55px;
   padding-left: 100px;
   border-bottom: 3px solid white;
 }
 .welcome-page button {
+  margin-left: 150px;
   background-color: #060b18;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
@@ -607,6 +622,40 @@ footer div {
 .galleries {
   background-color: #f8f9fa;
 }
+.galleries .gallery-images {
+  background-color: #f8f9fa;
+  display: grid;
+  grid-template-columns: 50px auto auto 50px;
+  justify-content: center;
+  grid-template-areas: ". g1 g2 ." ". g3 g4 .";
+}
+.galleries .gallery-images .g1 {
+  grid-area: g1;
+}
+.galleries .gallery-images .g1 .caption-1 {
+  color: #060b18;
+}
+.galleries .gallery-images .g2 {
+  grid-area: g2;
+}
+.galleries .gallery-images .g2 .caption-2 {
+  color: #060b18;
+}
+.galleries .gallery-images .g3 {
+  grid-area: g3;
+}
+.galleries .gallery-images .g3 .caption-3 {
+  color: #060b18;
+}
+.galleries .gallery-images .g4 {
+  grid-area: g4;
+}
+.galleries .gallery-images .g4 .caption-4 {
+  color: #060b18;
+}
+.galleries .g1, .galleries .g2, .galleries .g3, .galleries .g4 {
+  padding: 30px;
+}
 .galleries h2 {
   padding-top: 215px;
   padding-bottom: 100px;
@@ -621,25 +670,23 @@ footer div {
   text-align: center;
   color: #060b18;
   border-bottom: 2px solid #060b18;
+  padding-bottom: 50px;
 }
 @media (min-width: 992px) {
   .galleries ul {
     align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0;
+    justify-content: center;
+    padding-top: 0px;
   }
 }
 .galleries ul li {
   text-align: center;
   color: #060b18;
-  display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-bottom: 24px;
 }
 @media (min-width: 992px) {
   .galleries ul li {
-    border-left: 1px solid;
     margin-bottom: 0;
     margin-left: 16px;
     padding-left: 24px;
@@ -674,6 +721,10 @@ footer div {
 .quote {
   display: grid;
   grid-template-columns: 100%;
+}
+.quote h3 {
+  align-items: center;
+  text-align: center;
 }
 .quote div {
   text-align: center;
