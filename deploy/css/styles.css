@@ -590,9 +590,6 @@ footer div {
   padding-top: 100px;
   padding-bottom: 210px;
 }
-.welcome-page .g1, .welcome-page .g2, .welcome-page .g3, .welcome-page .g4 {
-  align-items: center;
-}
 .welcome-page .header1-logo {
   margin-left: 55px;
   padding-left: 100px;
@@ -722,10 +719,13 @@ footer div {
   display: grid;
   grid-template-columns: 100%;
 }
-.quote h3 {
-  align-items: center;
-  text-align: center;
-}
 .quote div {
   text-align: center;
 }
+
+/* =============
+    Missions
+============= */
+/* =============
+    Articles
+============= */
