@@ -495,9 +495,11 @@ nav ul li {
   margin-bottom: 24px;
   text-align: right;
 }
+nav ul li a {
+  margin-right: 30px;
+}
 @media (min-width: 992px) {
   nav ul li {
-    border-left: 1px solid;
     margin-bottom: 0;
     margin-left: 16px;
     padding-left: 24px;
@@ -531,6 +533,8 @@ nav ul li:first-child {
 ============= */
 header {
   display: grid;
+  margin-left: 72px;
+  margin-right: 72px;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
   padding: 24px 0;
@@ -587,6 +591,7 @@ footer div {
 .welcome-page {
   background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
   background-image: cover;
+  background-repeat: no-repeat;
   padding-top: 450px;
 }
 .welcome-page h3 {
@@ -610,6 +615,7 @@ footer div {
 .welcome-page .bar-under-nasa {
   margin: 0;
   padding: 0;
+  justify-content: left;
 }
 .welcome-page button {
   margin-left: 150px;
@@ -632,7 +638,7 @@ footer div {
 }
 .welcome-page div {
   padding: 20px;
-  padding-bottom: 310px;
+  padding-bottom: 300px;
 }
 
 /* =============
@@ -642,7 +648,6 @@ footer div {
   background-color: #f8f9fa;
 }
 .galleries .gallery-images {
-  background-color: #f8f9fa;
   display: grid;
   grid-template-columns: 50px auto auto 50px;
   justify-content: center;
@@ -688,8 +693,11 @@ footer div {
 .galleries ul {
   text-align: center;
   color: #060b18;
-  border-bottom: 2px solid #060b18;
+  border-bottom: 1.5px solid #060b18;
+  margin-left: 600px;
+  margin-right: 600px;
   padding-bottom: 50px;
+  margin: auto;
 }
 @media (min-width: 992px) {
   .galleries ul {
@@ -699,17 +707,15 @@ footer div {
   }
 }
 .galleries ul li {
-  text-align: center;
   color: #060b18;
+  display: inline;
   justify-content: center;
-  margin-bottom: 24px;
 }
-@media (min-width: 992px) {
-  .galleries ul li {
-    margin-bottom: 0;
-    margin-left: 16px;
-    padding-left: 24px;
-  }
+.galleries ul li img {
+  width: 13px;
+}
+.galleries ul li a {
+  padding: 50px;
 }
 .galleries ul li a:link,
 .galleries ul li a:visited {
@@ -738,11 +744,23 @@ footer div {
     Quote
 ============= */
 .quote {
-  display: grid;
+  display: inline;
   grid-template-columns: 100%;
 }
 .quote div {
   text-align: center;
+  padding-top: 170px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.quote div h2 {
+  font-family: "raleway";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 44px;
+}
+.quote div img {
+  padding-bottom: 60px;
 }
 
 /* =============

@@ -6,6 +6,7 @@
 
     background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
     background-image: cover;
+    background-repeat: no-repeat;
     padding-top: 450px;
 
     h3{
@@ -32,6 +33,7 @@
     .bar-under-nasa{
         margin:0;
         padding:0;
+        justify-content: left;
     }
 
     button{
@@ -59,6 +61,6 @@
 
     div{
         padding: 20px;
-        padding-bottom: 310px;
+        padding-bottom: 300px;
     }
 }

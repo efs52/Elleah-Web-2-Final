@@ -65,8 +65,12 @@ nav {
 			justify-content: flex-end;
 			margin-bottom: 24px;
 			text-align: right;
+
+			a{
+				margin-right: 30px;
+			}
+
 			@include lg {
-				border-left: 1px solid;
 				margin-bottom: 0;
 				margin-left: 16px;
 				padding-left: 24px;

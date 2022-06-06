@@ -6,7 +6,7 @@
 	background-color: #f8f9fa;
 
 	.gallery-images{
-		background-color: #f8f9fa;
+		
 		display: grid;
 		grid-template-columns: 50px auto auto 50px;
 		justify-content: center;
@@ -63,8 +63,11 @@
     ul {
         text-align: center;
 		color: #060b18;
-        border-bottom: 2px solid $outer-space;
+        border-bottom: 1.5px solid $outer-space;
+		margin-left: 600px;
+		margin-right: 600px;
 		padding-bottom: 50px;
+		margin: auto;
 		
 		@include lg {
 			align-items: center;
@@ -72,18 +75,20 @@
 			justify-content: center;
 			padding-top: 0px;
 		}
+
 		li {
-            text-align: center;
 			color: #060b18;
-			
+			display: inline;
 			justify-content: center;
-			margin-bottom: 24px;
-			@include lg {
-				
-				margin-bottom: 0;
-				margin-left: 16px;
-				padding-left: 24px;
+
+			img{
+				width: 13px;
 			}
+
+			a{
+				padding: 50px;
+			}
+
 			a:link,
             a:visited {
 				color: #060b18;
