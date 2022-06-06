@@ -9,7 +9,8 @@
     padding-top: 450px;
 
     h3{
-        margin-left: 100px;
+        margin-left: 220px;
+        margin-right: 220px;
         align-items: center;
         text-align: center;
         font-family: "raleway";
@@ -25,7 +26,12 @@
     .header1-logo{
         margin-left: 55px;
         padding-left: 100px;
-        border-bottom: 3px solid white;
+        padding-bottom: 60px;
+    }
+
+    .bar-under-nasa{
+        margin:0;
+        padding:0;
     }
 
     button{
@@ -37,7 +43,7 @@
         height: 60px;
         font-weight: 400;
         color:#f8f9fa;
-        border-color: #f8f9fa;
+        border: 2px solid white;
         border-radius: 50px;
 
     }
@@ -45,7 +51,14 @@
 
     h1{
         color: white;
-        padding-top: 50px;
+        padding-top: 27px;
         padding-left: 100px;
+        margin-left: 55px;
+        padding-bottom: 60px;
+    }
+
+    div{
+        padding: 20px;
+        padding-bottom: 310px;
     }
 }

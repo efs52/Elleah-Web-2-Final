@@ -458,7 +458,7 @@ nav aside {
 }
 nav aside button {
   background-color: transparent;
-  border: none;
+  border: 2px solid white;
   color: #fff;
 }
 nav aside button:hover {
@@ -468,6 +468,17 @@ nav ul {
   color: white;
   height: 100%;
   padding-top: 20%;
+}
+nav ul button {
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 50px 0px 0px 50px;
+}
+nav ul button img {
+  width: 15px;
+}
+nav ul input {
+  border-radius: 0px 50px 50px 0px;
 }
 @media (min-width: 992px) {
   nav ul {
@@ -579,7 +590,8 @@ footer div {
   padding-top: 450px;
 }
 .welcome-page h3 {
-  margin-left: 100px;
+  margin-left: 220px;
+  margin-right: 220px;
   align-items: center;
   text-align: center;
   font-family: "raleway";
@@ -593,7 +605,11 @@ footer div {
 .welcome-page .header1-logo {
   margin-left: 55px;
   padding-left: 100px;
-  border-bottom: 3px solid white;
+  padding-bottom: 60px;
+}
+.welcome-page .bar-under-nasa {
+  margin: 0;
+  padding: 0;
 }
 .welcome-page button {
   margin-left: 150px;
@@ -604,13 +620,19 @@ footer div {
   height: 60px;
   font-weight: 400;
   color: #f8f9fa;
-  border-color: #f8f9fa;
+  border: 2px solid white;
   border-radius: 50px;
 }
 .welcome-page h1 {
   color: white;
-  padding-top: 50px;
+  padding-top: 27px;
   padding-left: 100px;
+  margin-left: 55px;
+  padding-bottom: 60px;
+}
+.welcome-page div {
+  padding: 20px;
+  padding-bottom: 310px;
 }
 
 /* =============

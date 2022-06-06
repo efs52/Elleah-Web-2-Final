@@ -223,6 +223,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/Rectangle541.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/Rectangle541.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/svg\/right-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -454,18 +464,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_galleries.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_galleries-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/dev\/scss\/sections\/_galleries.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -496,18 +494,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_quote.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_quote-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/dev\/scss\/sections\/_quote.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -522,18 +508,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_welcome-page.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_welcome-page-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/sections\/_welcome-page.scss" : {
       "aP" : 0,
