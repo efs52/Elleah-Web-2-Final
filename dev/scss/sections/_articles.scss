@@ -9,6 +9,11 @@
 
     justify-content: center;
 
+    .text-inside-box{
+        border-style: 3px solix $dusty-blue;
+        border-radius: 16px;
+    }
+
     h2{
         padding-top: 215px;
         padding-bottom: 100px;
@@ -25,5 +30,28 @@
         font-family: 'montserrat';
         font-weight: 600;
         font-size: 32px;
+        align-items: center;
+        text-align: center;
+    }
+
+    h4{
+        font-family: 'montserrat';
+        font-weight: 400;
+        font-size: 20px;
+        align-items: center;
+        text-align: left;
+    }
+    .paragraph{
+        align-items: center;
+        text-align: center;
+
+
+        p{
+            font-family: 'raleway';
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 37px;
+        }
+
     }
 }

@@ -810,6 +810,10 @@ footer div {
   grid-template-columns: 100%;
   justify-content: center;
 }
+.articles .text-inside-box {
+  border-style: 3px solix #9eb9c4;
+  border-radius: 16px;
+}
 .articles h2 {
   padding-top: 215px;
   padding-bottom: 100px;
@@ -824,4 +828,23 @@ footer div {
   font-family: "montserrat";
   font-weight: 600;
   font-size: 32px;
+  align-items: center;
+  text-align: center;
+}
+.articles h4 {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  text-align: left;
+}
+.articles .paragraph {
+  align-items: center;
+  text-align: center;
+}
+.articles .paragraph p {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 37px;
 }
