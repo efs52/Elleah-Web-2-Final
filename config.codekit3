@@ -193,6 +193,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/missions-extra.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/missions-extra.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/svg\/NASA_Worm_logo2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -248,6 +258,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/svg\/search_magnifying_glass.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/white-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/white-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

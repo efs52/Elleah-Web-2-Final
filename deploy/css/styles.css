@@ -440,7 +440,7 @@ nav {
   position: absolute;
   right: 0;
   top: 0;
-  width: 50vw;
+  width: 50px;
 }
 @media (min-width: 992px) {
   nav {
@@ -647,6 +647,10 @@ footer div {
 .galleries {
   background-color: #f8f9fa;
 }
+.galleries .gallery-nav {
+  margin-left: 400px;
+  margin-right: 400px;
+}
 .galleries .gallery-images {
   display: grid;
   grid-template-columns: 50px auto auto 50px;
@@ -755,9 +759,19 @@ footer div {
 }
 .quote div h2 {
   font-family: "raleway";
-  font-weight: 600;
+  font-weight: 500;
   font-size: 48px;
-  line-height: 44px;
+  line-height: 60px;
+}
+.quote div h3 {
+  border-top: 1px solid white;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding-top: 50px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600px;
+  padding-bottom: 50px;
 }
 .quote div img {
   padding-bottom: 60px;
@@ -766,6 +780,48 @@ footer div {
 /* =============
     Missions
 ============= */
+.missions {
+  background-color: #f8f9fa;
+  background-image: url("img/svg/missions-extra.svg");
+  background-image: cover;
+}
+.missions button {
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 40px;
+  border-style: none;
+  border-radius: 60px;
+  margin-left: 600px;
+  margin-top: 350px;
+  margin-bottom: 300px;
+  letter-spacing: 1px;
+}
+.missions button img {
+  width: 50px;
+  padding-left: 60px;
+}
+
 /* =============
     Articles
 ============= */
+.articles {
+  display: inline;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+.articles h2 {
+  padding-top: 215px;
+  padding-bottom: 100px;
+  color: #f8f9fa;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+}
+.articles h3 {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 32px;
+}
