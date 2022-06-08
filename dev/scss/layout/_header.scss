@@ -13,22 +13,25 @@ header{
     background-color: $outer-space;
     border-bottom: 1px solid white;
 
+    ul{
+        input{
+            margin-left: -10px;
+            background-color: white;
+        }
+    }
+    
+
 
     div{
         grid-area: header;
 
         display: grid;
-        grid-template-columns: 50% auto;
+        grid-template-columns: 20% auto;
         grid-template-areas: "logo burger";
 
         @include lg{
             grid-template-areas: "logo nav";
 
-        }
-
-        .logo{
-            color: white;
-            font-size: 40px;
         }
 
         .burger-container{
@@ -45,6 +48,10 @@ header{
                 background-color: transparent;
                 color: white;
                 font-size: 20px;
+
+                img{
+                    padding-bottom: 10px;
+                }
 
                 &:hover{
                     cursor: pointer;

@@ -471,11 +471,12 @@ nav ul {
 }
 nav ul button {
   background-color: white;
-  border: 5px white solid;
+  border: 6.5px white solid;
   border-radius: 50px 0px 0px 50px;
 }
 nav ul button img {
-  width: 15px;
+  width: 14px;
+  padding-top: 1px;
 }
 nav ul input {
   border-radius: 0px 50px 50px 0px;
@@ -485,7 +486,7 @@ nav ul input {
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    padding-top: 0;
+    padding-top: 2px;
   }
 }
 nav ul li {
@@ -494,6 +495,8 @@ nav ul li {
   justify-content: flex-end;
   margin-bottom: 24px;
   text-align: right;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 nav ul li a {
   margin-right: 30px;
@@ -542,20 +545,20 @@ header {
   background-color: #060b18;
   border-bottom: 1px solid white;
 }
+header ul input {
+  margin-left: -10px;
+  background-color: white;
+}
 header div {
   grid-area: header;
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 20% auto;
   grid-template-areas: "logo burger";
 }
 @media (min-width: 992px) {
   header div {
     grid-template-areas: "logo nav";
   }
-}
-header div .logo {
-  color: white;
-  font-size: 40px;
 }
 header div .burger-container {
   display: flex;
@@ -573,6 +576,9 @@ header div .burger-container button {
   color: white;
   font-size: 20px;
 }
+header div .burger-container button img {
+  padding-bottom: 10px;
+}
 header div .burger-container button:hover {
   cursor: pointer;
 }
@@ -589,8 +595,8 @@ footer div {
     Welcome Page
 ============= */
 .welcome-page {
-  background-image: url("/deploy/img/images/WelcomePlanetBackground.png");
-  background-image: cover;
+  background-image: url("../img/images/WelcomePlanetBackground.png");
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 450px;
 }

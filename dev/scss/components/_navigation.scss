@@ -23,6 +23,7 @@ nav {
 		position: relative;
 		width: 100%;
 	}
+
 	aside {
 		display: flex;
 		justify-content: flex-end;
@@ -36,6 +37,7 @@ nav {
 			}
 		}
 	}
+
 	ul {
 		color: white;
 		height: 100%;
@@ -43,11 +45,13 @@ nav {
 
 		button{
 			background-color: white;
-			border: 5px white solid;
+			border: 6.5px white solid;
 			border-radius: 50px 0px 0px 50px;
+			
 
 			img{
-				width: 15px;
+				width: 14px;
+				padding-top: 1px;
 			}
 		}
 
@@ -58,14 +62,17 @@ nav {
 			align-items: center;
 			display: flex;
 			justify-content: flex-end;
-			padding-top: 0;
+			padding-top: 2px;
 		}
+
 		li {
 			color: white;
 			display: flex;
 			justify-content: flex-end;
 			margin-bottom: 24px;
 			text-align: right;
+			margin-left: 10px;
+			margin-right: 10px;
 
 			a{
 				margin-right: 30px;
