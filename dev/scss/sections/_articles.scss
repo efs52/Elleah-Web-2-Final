@@ -54,4 +54,19 @@
         }
 
     }
+
+    button{
+        background-color: $moon;
+        border-style: none;
+        border-radius: 10px;
+        color: $outer-space;
+        font-family: 'montserrat';
+        font-weight: 400;
+        font-size: 14px;
+
+        span{
+            font-weight: 600;
+        }
+
+    }
 }

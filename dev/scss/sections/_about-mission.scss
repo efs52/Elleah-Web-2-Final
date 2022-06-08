@@ -7,36 +7,53 @@
     display: grid;
     grid-template-columns: 130px auto auto 130px;
     padding-top: 100px;
+	padding-bottom: 100px;
     justify-content: center;
     display: grid;
 		grid-template-columns: 50px auto auto 50px;
+		//need to have three columns since grid template
+		//area is divided into 3... ?
 		justify-content: center;
 		grid-template-areas:
-		". m1 . ."
-		". m22 ."
-        ". m3 .";
+		"m1 . ."
+		". . m22"
+        "m3 . .";
 
 		.m1{
-			grid-area: g1;
+			grid-area: m1;
 			.caption-1{
-				color: $outer-space;
+				color: white;
+				font-family: 'raleway';
+				font-weight: 400;
+				font-size: 20px;
+				text-align: left;
 			}
 		}
 
 		.m2{
-			grid-area: g2;
+			grid-area: m2;
 			.caption-2{
-				color: $outer-space;
+				color: white;
+				font-family: 'raleway';
+				font-weight: 400;
+				font-size: 20px;
+				text-align: right;
 			}
 		}
 
 		.m3{
-			grid-area: g3;
+			grid-area: m3;
 			.caption-3{
-				color: $outer-space;
+				color: white;
+				font-family: 'raleway';
+				font-weight: 400;
+				font-size: 20px;
+				text-align: left;
 			}
 			
 		}
+
+		
     h2{
         display: block;
         writing-mode: vertical-lr;

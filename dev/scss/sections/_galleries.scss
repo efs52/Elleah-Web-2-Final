@@ -53,6 +53,16 @@
         padding: 30px;
     }
 
+	a{
+		text-decoration: none;
+		color: $outer-space;
+		font-family: 'montserrat';
+		font-weight: 600;
+		font-size: 25px;
+		border-bottom: 2px dotted $outer-space;
+		text-align: center;
+	}
+
     h2{
         padding-top: 215px;
         padding-bottom: 100px;

@@ -686,6 +686,15 @@ footer div {
 .galleries .g1, .galleries .g2, .galleries .g3, .galleries .g4 {
   padding: 30px;
 }
+.galleries a {
+  text-decoration: none;
+  color: #060b18;
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  border-bottom: 2px dotted #060b18;
+  text-align: center;
+}
 .galleries h2 {
   padding-top: 215px;
   padding-bottom: 100px;
@@ -850,6 +859,18 @@ footer div {
   font-size: 22px;
   line-height: 37px;
 }
+.articles button {
+  background-color: #f8f9fa;
+  border-style: none;
+  border-radius: 10px;
+  color: #060b18;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 14px;
+}
+.articles button span {
+  font-weight: 600;
+}
 
 /* =============
    Facts
@@ -903,29 +924,42 @@ footer div {
   display: grid;
   grid-template-columns: 130px auto auto 130px;
   padding-top: 100px;
+  padding-bottom: 100px;
   justify-content: center;
   display: grid;
   grid-template-columns: 50px auto auto 50px;
   justify-content: center;
-  grid-template-areas: ". m1 . ." ". m22 ." ". m3 .";
+  grid-template-areas: "m1 . ." ". . m22" "m3 . .";
 }
 .about-mission .m1 {
-  grid-area: g1;
+  grid-area: m1;
 }
 .about-mission .m1 .caption-1 {
-  color: #060b18;
+  color: white;
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
 }
 .about-mission .m2 {
-  grid-area: g2;
+  grid-area: m2;
 }
 .about-mission .m2 .caption-2 {
-  color: #060b18;
+  color: white;
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
 }
 .about-mission .m3 {
-  grid-area: g3;
+  grid-area: m3;
 }
 .about-mission .m3 .caption-3 {
-  color: #060b18;
+  color: white;
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
 }
 .about-mission h2 {
   display: block;
