@@ -1,0 +1,44 @@
+/* =============
+    About Mission
+============= */
+
+.about-mission{
+
+    display: grid;
+    grid-template-columns: 130px auto auto 130px;
+    padding-top: 100px;
+    justify-content: center;
+    display: grid;
+		grid-template-columns: 50px auto auto 50px;
+		justify-content: center;
+		grid-template-areas:
+		". m1 . ."
+		". m22 ."
+        ". m3 .";
+
+		.m1{
+			grid-area: g1;
+			.caption-1{
+				color: $outer-space;
+			}
+		}
+
+		.m2{
+			grid-area: g2;
+			.caption-2{
+				color: $outer-space;
+			}
+		}
+
+		.m3{
+			grid-area: g3;
+			.caption-3{
+				color: $outer-space;
+			}
+			
+		}
+    h2{
+        display: block;
+        writing-mode: vertical-lr;
+    }
+}

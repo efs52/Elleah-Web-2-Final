@@ -850,3 +850,124 @@ footer div {
   font-size: 22px;
   line-height: 37px;
 }
+
+/* =============
+   Facts
+============= */
+.facts {
+  background-color: #f8f9fa;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.facts .content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.facts .content .fact-1, .facts .content .fact-2, .facts .content .fact-3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.facts .content .people-icon {
+  padding-right: 15px;
+}
+.facts .content .suitcase-icon {
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+.facts h2 {
+  font-family: "montserrat";
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+  color: #060b18;
+  border-bottom: 2px solid #060b18;
+}
+.facts p {
+  color: #060b18;
+  font-family: "raleway";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* =============
+    About Mission
+============= */
+.about-mission {
+  display: grid;
+  grid-template-columns: 130px auto auto 130px;
+  padding-top: 100px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50px auto auto 50px;
+  justify-content: center;
+  grid-template-areas: ". m1 . ." ". m22 ." ". m3 .";
+}
+.about-mission .m1 {
+  grid-area: g1;
+}
+.about-mission .m1 .caption-1 {
+  color: #060b18;
+}
+.about-mission .m2 {
+  grid-area: g2;
+}
+.about-mission .m2 .caption-2 {
+  color: #060b18;
+}
+.about-mission .m3 {
+  grid-area: g3;
+}
+.about-mission .m3 .caption-3 {
+  color: #060b18;
+}
+.about-mission h2 {
+  display: block;
+  writing-mode: vertical-lr;
+}
+
+/* =============
+    About Welcome Page
+============= */
+.about-welcome-page h1 {
+  font-family: "montserrat";
+  font-size: 200px;
+  font-weight: 600;
+}
+.about-welcome-page .about-nasa-worm-logo img {
+  width: 50px;
+}
+.about-welcome-page .astronaut img {
+  justify-content: left;
+}
+.about-welcome-page button {
+  margin-left: 150px;
+  background-color: #060b18;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  width: 220px;
+  height: 60px;
+  font-weight: 400;
+  color: #f8f9fa;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+/* =============
+    Locations
+============= */
+/* =============
+    Questions
+============= */
+/* =============
+    Our History
+============= */
+/* =============
+    Contact Us
+============= */

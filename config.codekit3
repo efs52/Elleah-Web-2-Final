@@ -81,6 +81,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/images\/astronaut-group.png" : {
+      "ft" : 32768,
+      "iS" : 461812,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/images\/astronaut-group.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/images\/history.png" : {
+      "ft" : 32768,
+      "iS" : 32566,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/images\/history.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/images\/marsrrsrs1.png" : {
       "ft" : 32768,
       "iS" : 197332,
@@ -107,11 +133,50 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/images\/rocket-1.png" : {
+      "ft" : 32768,
+      "iS" : 276963,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/images\/rocket-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/images\/rover1.png" : {
       "ft" : 32768,
       "iS" : 134482,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/images\/rover1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/images\/solarsystem-1.png" : {
+      "ft" : 32768,
+      "iS" : 269368,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/images\/solarsystem-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/images\/spacetelescope-1.png" : {
+      "ft" : 32768,
+      "iS" : 511949,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/images\/spacetelescope-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -213,6 +278,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/NASA-Misson-title.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/NASA-Misson-title.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/svg\/nasa-nav-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -228,6 +303,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/svg\/Nasalogofooter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/people-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/people-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -263,6 +348,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/Suitcase-Icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/Suitcase-Icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/svg\/white-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -293,12 +388,12 @@
       "tS" : 0
     },
     "\/dev\/html\/aboutpage.html" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/html\/aboutpage.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/index.html" : {
       "cB" : 0,
@@ -469,6 +564,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_about-mission.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about-mission.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_about-welcome-page.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about-welcome-page.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_articles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -480,6 +605,36 @@
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_articles.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_contact-us.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_contact-us.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_facts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_facts.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -499,6 +654,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_locations.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_locations.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_missions.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -510,6 +680,36 @@
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_missions.css",
       "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_our-history.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_our-history.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_questions.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_questions.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
