@@ -5,12 +5,15 @@
 .locations{
 
     h2{
+        display: block;
         writing-mode: vertical-lr;
-        text-orientation: sideways-left;
+		text-orientation: sideways-left;
         color: $moon;
         font-family: 'Montserrat';
         font-weight: 600;
         font-size: 48px;
+        padding-top: 200px;
+        padding-left: 30px;
     }
 
     .map{

@@ -2,3 +2,108 @@
     Questions
 ============= */
 
+.questions{
+
+    .text{
+
+        margin: auto;
+        width: 30%;
+
+        h2{
+            font-family: 'montserrat';
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 160%;
+            margin: auto;
+            width: 70%;
+            padding-top: 200px;
+            padding-bottom: 20px;
+
+        }
+
+        h3{
+            font-family: 'raleway';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 160%;
+            margin: auto;
+            width: 70%;
+            padding-bottom: 40px;
+        }
+
+        h4{
+            font-family: 'raleway';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 160%;
+            margin: auto;
+            width: 70%;
+            padding-bottom: 70px;
+
+        }
+    }
+
+    .contact-ques{
+
+        background-color: $outer-space;
+        border: 3px solid $moon;
+        padding-top: 60px;
+        padding-bottom: 250px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 50px;
+
+        input{
+            border-radius: 7px;
+        }
+
+        h3{
+            justify-content: center;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'montserrat';
+            font-weight: 400;
+            border-bottom: 5px dotted $moon;
+            padding-bottom: 20px;
+            margin: auto;
+            width: 20%;
+            margin-bottom: 60px;
+
+        }
+
+        .first-last-names{
+            display: flex;
+            justify-content: center;
+
+            .first{
+                padding-right: 127px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 30px;
+                margin-right: 25px;
+                margin-left: 45px;
+            }
+
+            .last{
+                padding-right: 137px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 20px;
+                margin-right: 50px;
+
+            }
+        }
+
+        .email-input{
+            .emailad{
+                display: flex;
+                justify-content: center;
+
+            }
+        }
+
+    }
+
+
+}
+

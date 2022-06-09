@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/7ab68a398d.js?ckcachebust=676473016" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7ab68a398d.js?ckcachebust=676485659" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=1F443E9CC623C39DBE9BAA35B3977977" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com?ckcachebust=5AF84BEDC6CAF4808226D995175233B7" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600&family=Source+Sans+3&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css?ckcachebust=676473016">
+    <link rel="stylesheet" href="../css/styles.css?ckcachebust=676485659">
     <title>About Page</title>
   </head>
 
@@ -150,75 +150,119 @@
   </section>
 
   <section class="contact">
-    <h2>CONTACT US</h2>
-      <h3>Public Communications Office<br>
+
+    <container class="heading">
+        <h2>CONTACT US</h2>
+        <h3>Public Communications Office<br>
         NASA Headquarters</h3>
+      </container>
+
     <div class="contact-content">
-        <img src="../img/svg/email.svg">
-        <h4>Mailing address:
-          300 E. Street SW, Suite 5R30
-          Washington, DC 20546</h4>
-        <img src="../img/svg/call.svg">
-        <h4>Office phone number:
-          (202) 358-0001</h4>
-        <img src="../img/svg/fax-icon.svg">
-        <h4>Fax number:
-          (202) 358-4338 </h4>
+
+        <div class="email">
+          <img class="em" src="../img/svg/email.svg">
+          <div class="typ1">
+              <h4><span>Mailing address:</span><br>
+              300 E. Street SW, Suite 5R30
+              Washington, DC 20546</h4>
+          </div>
+        </div>
+
+        <div class="phone">
+          <img class="ph" src="../img/svg/call.svg">
+          <div class="typ2">
+              <h4><span>Office phone number:</span><br>
+              (202) 358-0001</h4>
+          </div>
+        </div>
+
+        <div class="fax">
+          <img class="fa" src="../img/svg/fax-icon.svg">
+          <div class="typ3">
+            <h4><span>Fax number:</span><br>
+            (202) 358-4338 </h4>
+          </div>
+        </div>
+
       </div>
   </section>
 
   <section class="questions">
-    <h2>HAVE QUESTIONS?</h2>
-    <h3>Enter your name and e-mail address below to ask us general questions.
-      Please allow 10-15 business days for processing. Please select or specify a subject, and do not include links in your text. Questions and comments are limited to 250 characters.</h3>
+    <container class="text">
+        <h2>HAVE QUESTIONS?</h2>
+        <h3>Enter your name and e-mail address below to ask us general questions.</h3>
+        <h4>Please allow 10-15 business days for processing. Please select or specify a subject, and do not include links in your text. Questions and comments are limited to 250 characters.</h4>
+    </container>
       <img class="circle" src="..img/svg/contact-form-ellipse.svg">
-      <form action="#">
-        <input type="text" placeholder="First Name">
-      </form>
-      <form action="#">
-        <input type="text" placeholder="Last Name">
-      </form>
-      <form action="#">
-        <input type="text" placeholder="Email Address">
-      </form>
-      <form action="#">
-        <input type="text" placeholder="Select Subject">
-      </form>
-      <form action="#">
-        <input type="text" placeholder="Write a message...">
-      </form>
+
+    <form class="contact-ques">
+      <h3>Submit a question</h3>
+
+        <div class="first-last-names">
+          <form action="#">
+              <input class="first" type="text" placeholder="First name">
+          </form>
+          <form action="#">
+              <input class="last" type="text" placeholder="Last name">
+          </form>
+        </div>
+
+        <div class="email-input">
+            <form action="#">
+                <input class="emailad" type="text" placeholder="Email address">
+            </form>
+        </div>
+
+          <div class="subject-dropdown">
+            <form action="#">
+                <input class="subject" type="text" placeholder="Select subject">
+            </form>
+         </div>
+
+        <div class="message-input">
+          <form action="#">
+              <input class="message" type="text" placeholder="Write a message...">
+          </form>
+        </div>
+
       <button>Submit</button>
+    </form>
+
   </section>
 
-
   <footer>
-    <div>
-      <img src="../img/svg/Nasalogofooter.svg" alt="Footer Worm Logo">
-    </div>
-        <div>
-          <a href="#">No Fear Act</a>
-          <a href="#">FOIA</a>
-          <a href="#">Privacy</a>
-          <a href="#">Contact NASA</a>
-          <a href="#">Office of Inspector General</a>
-          <a href="#">Office of Special Counsel</a>
-          <a href="#">Agency Financial Reports</a>
+    <container class="links">
+      <div class="logo">
+        <img src="../img/svg/Nasalogofooter.svg" alt="Footer Worm Logo">
+      </div>
+      <a href="#">No Fear Act</a>
+      <a href="#">FOIA</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact NASA</a>
+    </container>
+    <container class="links2">
+      <a href="#">Office of Inspector General</a>
+      <a href="#">Office of Special Counsel</a>
+      <a href="#">Agency Financial Reports</a>
+    </container>
+        <div class="social-media-icons">
+          <img src="../img/svg/footer-twitter-logo.svg" alt="Twitter Logo">
+          <img src="../img/svg/footer-instagram-logo.svg" alt="Instagram Logo">
+          <img src="../img/svg/footer-youtube-logo.svg" alt="Youtube Logo">
+          <img src="../img/svg/footer-facebook-logo.svg" alt="Facebook Logo">
         </div>
-            <div class="social-media-icons">
-              <img src="../img/svg/footer-twitter-logo.svg" alt="Twitter Logo">
-              <img src="../img/svg/footer-instagram-logo.svg" alt="Instagram Logo">
-              <img src="../img/svg/footer-youtube-logo.svg" alt="Youtube Logo">
-              <img src="../img/svg/footer-facebook-logo.svg" alt="Facebook Logo">
-            </div>
 
 
-  </footer>
+</footer>
+
+
+  
       
       
 
 
 
 
-    <script src="js/scripts-min.js?ckcachebust=676473016"></script>
+    <script src="js/scripts-min.js?ckcachebust=676485659"></script>
   </body>
 </html>

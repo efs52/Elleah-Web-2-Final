@@ -1180,12 +1180,15 @@ footer .social-media-icons img {
     Locations
 ============= */
 .locations h2 {
+  display: block;
   writing-mode: vertical-lr;
   text-orientation: sideways-left;
   color: #f8f9fa;
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 48px;
+  padding-top: 200px;
+  padding-left: 30px;
 }
 .locations .map {
   display: block;
@@ -1209,6 +1212,86 @@ footer .social-media-icons img {
 /* =============
     Questions
 ============= */
+.questions .text {
+  margin: auto;
+  width: 30%;
+}
+.questions .text h2 {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 160%;
+  margin: auto;
+  width: 70%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+.questions .text h3 {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 40px;
+}
+.questions .text h4 {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 70px;
+}
+.questions .contact-ques {
+  background-color: #060b18;
+  border: 3px solid #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 250px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+.questions .contact-ques input {
+  border-radius: 7px;
+}
+.questions .contact-ques h3 {
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-family: "montserrat";
+  font-weight: 400;
+  border-bottom: 5px dotted #f8f9fa;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 20%;
+  margin-bottom: 60px;
+}
+.questions .contact-ques .first-last-names {
+  display: flex;
+  justify-content: center;
+}
+.questions .contact-ques .first-last-names .first {
+  padding-right: 127px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  margin-right: 25px;
+  margin-left: 45px;
+}
+.questions .contact-ques .first-last-names .last {
+  padding-right: 137px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-right: 50px;
+}
+.questions .contact-ques .email-input .emailad {
+  display: flex;
+  justify-content: center;
+}
+
 /* =============
     Our History
 ============= */
@@ -1240,30 +1323,58 @@ footer .social-media-icons img {
     Contact Us
 ============= */
 .contact {
-  display: grid;
   background-color: #f8f9fa;
-  margin: auto;
-  width: 100%;
-}
-.contact .contact-content {
-  display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: center;
-}
-.contact h2, .contact h3, .contact h4 {
-  color: #060b18;
 }
 .contact h2 {
+  font-size: "montserrat";
   font-weight: 600;
+  font-size: 64px;
   border-bottom: 2px solid #060b18;
-  margin: auto;
-  width: 40%;
+  width: 80%;
   justify-content: left;
   padding-top: 200px;
-  margin-bottom: 100px;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
 }
 .contact h3 {
   font-family: "montserrat";
   font-size: 22px;
   line-height: 150%;
+}
+.contact h2, .contact h3 {
+  margin-left: 150px;
+}
+.contact h2, .contact h3, .contact h4 {
+  color: #060b18;
+}
+.contact .email, .contact .phone, .contact .fax {
+  width: 140px;
+  padding: 100px;
+}
+.contact .phone .ph {
+  width: 143px;
+}
+.contact .email .em {
+  width: 142px;
+}
+.contact .fax .fa {
+  width: 145px;
+}
+.contact .contact-content {
+  display: grid;
+  padding-bottom: 100px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 100px;
+}
+.contact .contact-content h4 {
+  text-align: center;
+  line-height: 150%;
+}
+.contact .contact-content span {
+  font-weight: 600;
 }
