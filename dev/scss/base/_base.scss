@@ -9,8 +9,13 @@ body{
     background-color: #060b18;
 
     @include sm{
-        width: 100%;
+        grid-template-columns: 100%;
     }
+
+
+ 
+
+
 
     .hide-for-lg{
         @include lg{

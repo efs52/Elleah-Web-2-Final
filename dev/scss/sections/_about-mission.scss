@@ -21,6 +21,15 @@
 		transform-origin: bottom; 
 		margin-top: 200px;
 		transform: rotate(-90deg);
+
+		@include lg{
+			margin-left: -90px;
+			font-size: 48px;
+		}
+
+		@include xl{
+			margin-left: -70px;
+		}
 		
 		
     }
@@ -60,6 +69,10 @@
 			grid-area: img3;
 			
 			padding-left: 100px;
+
+			@include lg{
+				padding-left: 30px;
+			}
 			/*border-left: 2px solid $moon;
 			margin: auto;
 			height: 150%*/
@@ -83,6 +96,10 @@
 			padding-top: 190px;
 			padding-left: 78px;
 
+			@include lg{
+				padding-left: 120px;
+			}
+
 		}
 
 		p{
@@ -91,6 +108,10 @@
 			font-size: 24px;
 			line-height: 38px;
 			letter-spacing: 7%;
+
+			@include lg{
+				font-size: 20px;
+			}
 		}
 		
 	}

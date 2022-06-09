@@ -49,6 +49,10 @@
         width: 10%;
         justify-content: left;
 
+        @include lg{
+            width: 5%;
+        }
+
         .circ{
             margin-left: -450px;
             margin-bottom: -180px;
@@ -68,6 +72,17 @@
         margin-left: 300px;
         margin-right: 300px;
         margin-bottom: 215px;
+
+        @include lg{
+            margin-left: 100px;
+            margin-right: 100px;
+
+        }
+
+        @include xl{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
 
         input{
             border-radius: 7px;

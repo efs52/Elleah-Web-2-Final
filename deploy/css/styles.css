@@ -359,7 +359,7 @@ body {
 }
 @media (min-width: 576px) {
   body {
-    width: 100%;
+    grid-template-columns: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -708,15 +708,6 @@ footer .social-media-icons img {
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 450px;
-}
-@media (min-width: 576px) {
-  .welcome-page {
-    background-image: url("../img/images/WelcomePlanetBackground.png");
-    width: 400px;
-    background-repeat: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 }
 .welcome-page h3 {
   margin: auto;
@@ -1399,6 +1390,14 @@ footer .social-media-icons img {
   grid-template-columns: auto auto auto;
   justify-content: center;
 }
+@media (min-width: 992px) {
+  .facts {
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+}
 .facts .content {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -1429,6 +1428,11 @@ footer .social-media-icons img {
   border-bottom: 2px solid #060b18;
   padding-bottom: 20px;
 }
+@media (min-width: 992px) {
+  .facts h2 {
+    font-size: 50px;
+  }
+}
 .facts p {
   color: #060b18;
   font-family: "raleway";
@@ -1436,6 +1440,11 @@ footer .social-media-icons img {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+}
+@media (min-width: 992px) {
+  .facts p {
+    font-size: 13px;
+  }
 }
 
 /* =============
@@ -1457,6 +1466,17 @@ footer .social-media-icons img {
   transform-origin: bottom;
   margin-top: 200px;
   transform: rotate(-90deg);
+}
+@media (min-width: 992px) {
+  .about-mission h2 {
+    margin-left: -90px;
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-mission h2 {
+    margin-left: -70px;
+  }
 }
 .about-mission h2, .about-mission .img1 {
   display: flex;
@@ -1488,6 +1508,11 @@ footer .social-media-icons img {
   margin: auto;
   height: 150%*/
 }
+@media (min-width: 992px) {
+  .about-mission .mission-images .img3 {
+    padding-left: 30px;
+  }
+}
 .about-mission .mission-images .cap1 {
   grid-area: cap1;
   padding-top: 100px;
@@ -1504,12 +1529,22 @@ footer .social-media-icons img {
   padding-top: 190px;
   padding-left: 78px;
 }
+@media (min-width: 992px) {
+  .about-mission .mission-images .cap3 {
+    padding-left: 120px;
+  }
+}
 .about-mission .mission-images p {
   font-family: "raleway";
   font-weight: 400;
   font-size: 24px;
   line-height: 38px;
   letter-spacing: 7%;
+}
+@media (min-width: 992px) {
+  .about-mission .mission-images p {
+    font-size: 20px;
+  }
 }
 
 /*"m1 caption-1"
@@ -1574,16 +1609,32 @@ footer .social-media-icons img {
   font-weight: 600;
   margin: 0px;
 }
+@media (min-width: 992px) {
+  .about-welcome-page h1 {
+    font-size: 105px;
+  }
+}
 .about-welcome-page h2 {
   font-size: 24px;
   line-height: 40px;
   padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .about-welcome-page h2 {
+    font-size: 20px;
+  }
 }
 .about-welcome-page .wormy {
   grid-area: wormy;
   width: 140px;
   margin-left: 305px;
   margin-bottom: 90px;
+}
+@media (min-width: 992px) {
+  .about-welcome-page .wormy {
+    margin-left: 250px;
+    margin-bottom: 50px;
+  }
 }
 .about-welcome-page .content {
   grid-area: content;
@@ -1598,6 +1649,13 @@ footer .social-media-icons img {
 }
 .about-welcome-page .image .astronaut {
   width: 85%;
+}
+@media (min-width: 992px) {
+  .about-welcome-page .image .astronaut {
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+  }
 }
 .about-welcome-page .about-worm {
   width: 140px;
@@ -1634,6 +1692,12 @@ footer .social-media-icons img {
   transform-origin: bottom;
   margin-top: 60px;
   transform: rotate(-90deg);
+}
+@media (min-width: 992px) {
+  .locations h2 {
+    font-size: 48px;
+    margin-left: -20px;
+  }
 }
 .locations .map {
   display: block;
@@ -1696,6 +1760,11 @@ footer .social-media-icons img {
   width: 10%;
   justify-content: left;
 }
+@media (min-width: 992px) {
+  .questions .circle {
+    width: 5%;
+  }
+}
 .questions .circle .circ {
   margin-left: -450px;
   margin-bottom: -180px;
@@ -1708,6 +1777,18 @@ footer .social-media-icons img {
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 215px;
+}
+@media (min-width: 992px) {
+  .questions .contact-ques {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .questions .contact-ques {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }
 .questions .contact-ques input {
   border-radius: 7px;

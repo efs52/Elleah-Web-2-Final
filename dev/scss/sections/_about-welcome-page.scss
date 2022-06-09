@@ -24,12 +24,20 @@
         font-size: 120px;
         font-weight: 600;
         margin: 0px;
+
+        @include lg{
+            font-size: 105px;
+        }
     }
 
     h2{
         font-size: 24px;
         line-height: 40px;
         padding-bottom: 50px;
+
+        @include lg{
+            font-size: 20px;
+        }
     }
 
     .wormy{
@@ -37,6 +45,11 @@
         width: 140px;
         margin-left: 305px;
         margin-bottom: 90px;
+
+        @include lg{
+            margin-left: 250px;
+            margin-bottom: 50px;
+        }
 
     }
 
@@ -54,6 +67,16 @@
 
         .astronaut{
             width: 85%;
+
+            @include lg{
+                width: 70%;
+				height: 70%;
+                padding-left: 50px;
+				
+
+
+                
+            }
         }
     }
 

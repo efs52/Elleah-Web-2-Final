@@ -17,6 +17,11 @@
 		transform-origin: bottom; 
 		margin-top: 60px;
 		transform: rotate(-90deg);
+
+        @include lg{
+            font-size: 48px;
+            margin-left: -20px;
+        }
 		
 		
     }

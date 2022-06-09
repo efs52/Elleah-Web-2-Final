@@ -10,14 +10,7 @@
     background-position: center top;
     padding-top: 450px;
 
-    @include sm{
-        background-image: url("../img/images/WelcomePlanetBackground.png");
-        width: 400px;
 
-        background-repeat: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 
     h3{
         margin: auto;
