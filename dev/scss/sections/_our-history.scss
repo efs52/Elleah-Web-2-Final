@@ -2,3 +2,29 @@
     Our History
 ============= */
 
+.our-history{
+    background-color: $moon;
+    padding-top: 200px;
+
+    h2{
+        color: $outer-space;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 48px;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid $outer-space;
+        margin: auto;
+        width: 40%;
+        padding-bottom: 40px;
+        
+    }
+
+    img{
+        align-items: center;
+        justify-content: center;
+        padding-top: 120px;
+
+    }
+}
+

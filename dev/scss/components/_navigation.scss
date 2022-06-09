@@ -2,7 +2,7 @@
     Navigation
 ============= */
 
-nav {
+nav{
 	// this makes the nav not show up on the mobile sizes
 
 
@@ -31,6 +31,7 @@ nav {
 			background-color: transparent;
 			border: 2px solid white;
 			color: $white;
+			font-size: 0;
 			
 			&:hover{ 
 				cursor: pointer; 
@@ -42,16 +43,18 @@ nav {
 		color: white;
 		height: 100%;
 		padding-top: 20%;
+		height: 34px;
 
 		button{
 			background-color: white;
 			border: 6.5px white solid;
 			border-radius: 50px 0px 0px 50px;
 			
+			
 
 			img{
-				width: 14px;
-				padding-top: 1px;
+				width: 15px;
+				
 			}
 		}
 
@@ -86,7 +89,8 @@ nav {
 			a:link,
             a:visited {
 				color: $white;
-				font-size: 20px;
+				margin-top: 10px;
+				font-size: 18px;
 				font-weight: 300;
 				text-decoration: none;
 				transition: 0.25s;

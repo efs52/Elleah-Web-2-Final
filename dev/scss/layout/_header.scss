@@ -4,19 +4,20 @@
 
 header{
     display: grid;
-    margin-left: 72px;
-    margin-right: 72px;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 40px auto 40px;
     grid-template-areas: ". header .";
     padding: 24px 0;
-    width: 100%;
     background-color: $outer-space;
     border-bottom: 1px solid white;
+    width: 100%;
+    align-items: center;
+    
 
     ul{
         input{
             margin-left: -10px;
             background-color: white;
+            
         }
     }
     
@@ -24,7 +25,6 @@ header{
 
     div{
         grid-area: header;
-
         display: grid;
         grid-template-columns: 20% auto;
         grid-template-areas: "logo burger";
@@ -49,9 +49,6 @@ header{
                 color: white;
                 font-size: 20px;
 
-                img{
-                    padding-bottom: 10px;
-                }
 
                 &:hover{
                     cursor: pointer;

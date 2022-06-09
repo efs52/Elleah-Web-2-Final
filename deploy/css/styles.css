@@ -373,6 +373,7 @@ body p {
   font-weight: 400;
 }
 body a {
+  text-decoration: none;
   color: #f8f9fa;
   font-family: "montserrat";
 }
@@ -460,6 +461,7 @@ nav aside button {
   background-color: transparent;
   border: 2px solid white;
   color: #fff;
+  font-size: 0;
 }
 nav aside button:hover {
   cursor: pointer;
@@ -468,6 +470,7 @@ nav ul {
   color: white;
   height: 100%;
   padding-top: 20%;
+  height: 34px;
 }
 nav ul button {
   background-color: white;
@@ -475,8 +478,7 @@ nav ul button {
   border-radius: 50px 0px 0px 50px;
 }
 nav ul button img {
-  width: 14px;
-  padding-top: 1px;
+  width: 15px;
 }
 nav ul input {
   border-radius: 0px 50px 50px 0px;
@@ -511,7 +513,8 @@ nav ul li a {
 nav ul li a:link,
 nav ul li a:visited {
   color: #fff;
-  font-size: 20px;
+  margin-top: 10px;
+  font-size: 18px;
   font-weight: 300;
   text-decoration: none;
   transition: 0.25s;
@@ -536,14 +539,13 @@ nav ul li:first-child {
 ============= */
 header {
   display: grid;
-  margin-left: 72px;
-  margin-right: 72px;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 40px auto 40px;
   grid-template-areas: ". header .";
   padding: 24px 0;
-  width: 100%;
   background-color: #060b18;
   border-bottom: 1px solid white;
+  width: 100%;
+  align-items: center;
 }
 header ul input {
   margin-left: -10px;
@@ -576,9 +578,6 @@ header div .burger-container button {
   color: white;
   font-size: 20px;
 }
-header div .burger-container button img {
-  padding-bottom: 10px;
-}
 header div .burger-container button:hover {
   cursor: pointer;
 }
@@ -586,9 +585,47 @@ header div .burger-container button:hover {
 /* =============
     Footer
 ============= */
-footer div {
+footer {
+  display: inline;
+  grid-template-columns: 40px auto 40px;
+  grid-template-areas: ". footer .";
+  padding-top: 250px;
+}
+footer .links {
   display: grid;
-  grid-template-columns: 72px auto 72px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: right;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+footer .links .logo {
+  align-items: left;
+}
+footer .links .logo .img {
+  width: 10px;
+}
+footer .links2 {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: right;
+  padding-bottom: 60px;
+  margin-right: 40px;
+}
+footer a {
+  padding-bottom: 20px;
+  text-align: right;
+}
+footer .social-media-icons {
+  display: flex;
+  margin: auto;
+  width: 30%;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+footer .social-media-icons img {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* =============
@@ -598,11 +635,12 @@ footer div {
   background-image: url("../img/images/WelcomePlanetBackground.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center top;
   padding-top: 450px;
 }
 .welcome-page h3 {
-  margin-left: 220px;
-  margin-right: 220px;
+  margin: auto;
+  width: 60%;
   align-items: center;
   text-align: center;
   font-family: "raleway";
@@ -610,23 +648,18 @@ footer div {
   font-size: 32px;
   line-height: 63px;
   border-top: 2px solid white;
-  padding-top: 100px;
-  padding-bottom: 210px;
+  padding-top: 70px;
+  padding-bottom: 120px;
 }
 .welcome-page .header1-logo {
-  margin-left: 55px;
-  padding-left: 100px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .welcome-page .bar-under-nasa {
-  margin: 0;
-  padding: 0;
-  justify-content: left;
   display: flex;
-  margin-left: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .welcome-page button {
-  margin-left: 150px;
   background-color: #060b18;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
@@ -636,17 +669,20 @@ footer div {
   color: #f8f9fa;
   border: 2px solid white;
   border-radius: 50px;
+  margin-bottom: 300px;
+  margin-left: 150px;
 }
 .welcome-page h1 {
   color: white;
-  padding-top: 27px;
-  padding-left: 100px;
-  margin-left: 55px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
-.welcome-page div {
-  padding: 20px;
-  padding-bottom: 300px;
+.welcome-page .welcome-page-content {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.welcome-page .header1-logo, .welcome-page .bar-under-nasa, .welcome-page h1 {
+  padding-left: 150px;
 }
 
 /* =============
@@ -654,12 +690,12 @@ footer div {
 ============= */
 .galleries {
   background-color: #f8f9fa;
-}
-.galleries .gallery-nav {
-  margin-left: 400px;
-  margin-right: 400px;
+  justify-content: center;
+  padding-bottom: 250px;
 }
 .galleries .gallery-images {
+  margin-top: 30px;
+  margin-bottom: 80px;
   display: grid;
   grid-template-columns: 50px auto auto 50px;
   justify-content: center;
@@ -692,18 +728,9 @@ footer div {
 .galleries .g1, .galleries .g2, .galleries .g3, .galleries .g4 {
   padding: 30px;
 }
-.galleries a {
-  text-decoration: none;
-  color: #060b18;
-  font-family: "montserrat";
-  font-weight: 600;
-  font-size: 25px;
-  border-bottom: 2px dotted #060b18;
-  text-align: center;
-}
 .galleries h2 {
   padding-top: 215px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   color: #060b18;
   font-family: "Montserrat";
   font-weight: 600;
@@ -711,29 +738,52 @@ footer div {
   align-items: center;
   text-align: center;
 }
-.galleries ul {
-  text-align: center;
+.galleries a {
+  text-decoration: none;
   color: #060b18;
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+.galleries .see-more {
+  border-bottom: 5px dotted #060b18;
+  justify-content: center;
+  text-align: center;
+  margin-left: 650px;
+  margin-right: 650px;
+  background-color: #f8f9fa;
+  padding-bottom: 16px;
+}
+.galleries .gallery-nav-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.galleries .gallery-nav-tabs .left-arrow {
+  padding-right: 90px;
+}
+.galleries .gallery-nav-tabs .right-arrow {
+  padding-left: 90px;
+}
+.galleries ul {
+  list-style: none;
+  display: flex;
   border-bottom: 1.5px solid #060b18;
-  margin-left: 600px;
-  margin-right: 600px;
-  padding-bottom: 66px;
+  width: 58%;
   margin: auto;
+  color: #060b18;
 }
 @media (min-width: 992px) {
   .galleries ul {
     align-items: center;
     justify-content: center;
-    padding-top: 0px;
   }
 }
 .galleries ul li {
   color: #060b18;
   display: inline;
   justify-content: center;
-}
-.galleries ul li img {
-  width: 13px;
 }
 .galleries ul li a {
   padding: 50px;
@@ -781,9 +831,10 @@ footer div {
   line-height: 60px;
 }
 .quote div h3 {
+  text-align: center;
   border-top: 1px solid white;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin: auto;
+  width: 40%;
   padding-top: 50px;
   font-family: "Montserrat";
   font-size: 40px;
@@ -799,20 +850,26 @@ footer div {
 ============= */
 .missions {
   background-color: #f8f9fa;
-  background-image: url("img/svg/missions-extra.svg");
-  background-image: cover;
+  background-image: url("../img/svg/missions-extra.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-top: 500px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .missions button {
-  text-align: center;
+  display: flex;
   justify-content: center;
   padding: 50px;
   font-size: 40px;
   border-style: none;
   border-radius: 60px;
-  margin-left: 600px;
-  margin-top: 350px;
-  margin-bottom: 300px;
   letter-spacing: 1px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 150px;
 }
 .missions button img {
   width: 50px;
@@ -827,10 +884,6 @@ footer div {
   grid-template-columns: 100%;
   justify-content: center;
 }
-.articles .text-inside-box {
-  border-style: 3px solid #9eb9c4;
-  border-radius: 16px;
-}
 .articles h2 {
   padding-top: 215px;
   padding-bottom: 100px;
@@ -841,40 +894,67 @@ footer div {
   align-items: center;
   text-align: center;
 }
-.articles h3 {
+.articles .article-title {
+  position: relative;
+  background-color: #060b18;
+  border: 15px solid #060b18;
+  margin: auto;
+  width: 70%;
+  margin-bottom: -92px;
+  margin-left: 171px;
+}
+.articles .article-title h3 {
   font-family: "montserrat";
   font-weight: 600;
   font-size: 32px;
-  align-items: center;
-  text-align: center;
+  justify-content: left;
 }
-.articles h4 {
+.articles .inside-box {
+  border: 3px solid #9eb9c4;
+  border-radius: 3px 16px 16px 16px;
+  margin: auto;
+  width: 70%;
+  padding-top: 90px;
+  padding-bottom: 75px;
+  padding-left: 40px;
+  padding-right: 70px;
+  margin-bottom: 200px;
+}
+.articles .inside-box h4 {
   font-family: "montserrat";
   font-weight: 400;
   font-size: 20px;
-  align-items: center;
-  text-align: left;
+  padding-bottom: 50px;
+  margin-top: 0px;
 }
-.articles .paragraph {
-  align-items: center;
-  text-align: center;
-}
-.articles .paragraph p {
+.articles .inside-box p {
   font-family: "raleway";
   font-weight: 400;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 37px;
+  padding-bottom: 80px;
 }
-.articles button {
+.articles .inside-box p a {
+  padding-left: 10px;
+  font-weight: 600;
+}
+.articles .inside-box button {
   background-color: #f8f9fa;
   border-style: none;
-  border-radius: 10px;
+  border-radius: 13px;
   color: #060b18;
   font-family: "montserrat";
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
+  justify-content: right;
+  align-items: right;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  padding-right: 13px;
+  float: right;
 }
-.articles button span {
+.articles .inside-box button span {
   font-weight: 600;
 }
 
@@ -1008,6 +1088,28 @@ footer div {
 /* =============
     Our History
 ============= */
+.our-history {
+  background-color: #f8f9fa;
+  padding-top: 200px;
+}
+.our-history h2 {
+  color: #060b18;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #060b18;
+  margin: auto;
+  width: 40%;
+  padding-bottom: 40px;
+}
+.our-history img {
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+}
+
 /* =============
     Contact Us
 ============= */

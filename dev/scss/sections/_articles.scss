@@ -6,13 +6,7 @@
 
     display: inline;
     grid-template-columns: 100%;
-
     justify-content: center;
-
-    .text-inside-box{
-        border-style: 3px solid $dusty-blue;
-        border-radius: 16px;
-    }
 
     h2{
         padding-top: 215px;
@@ -23,50 +17,90 @@
         font-size: 48px;
         align-items: center;
         text-align: center;
+        
 
     }
 
-    h3{
-        font-family: 'montserrat';
-        font-weight: 600;
-        font-size: 32px;
-        align-items: center;
-        text-align: center;
+    .article-title{
+
+        position: relative;
+        background-color: $outer-space;
+        border: 15px solid $outer-space;
+        margin: auto;
+        width: 70%;
+        margin-bottom: -92px;
+        margin-left: 171px;
+        
+
+
+
+        h3{
+            font-family: 'montserrat';
+            font-weight: 600;
+            font-size: 32px;
+            justify-content: left;
+            
+        }
     }
 
-    h4{
-        font-family: 'montserrat';
-        font-weight: 400;
-        font-size: 20px;
-        align-items: center;
-        text-align: left;
-    }
-    .paragraph{
-        align-items: center;
-        text-align: center;
 
 
+
+    .inside-box{
+        border: 3px solid $dusty-blue;
+        border-radius: 3px 16px 16px 16px;
+        margin: auto;
+        width: 70%;
+        padding-top: 90px;
+        padding-bottom: 75px;
+        padding-left: 40px;
+        padding-right: 70px;
+        margin-bottom: 200px;
+
+        h4{
+            font-family: 'montserrat';
+            font-weight: 400;
+            font-size: 20px;
+            padding-bottom: 50px;
+            margin-top: 0px;
+        }
+        
+        
         p{
             font-family: 'raleway';
             font-weight: 400;
-            font-size: 22px;
+            font-size: 15px;
             line-height: 37px;
+            padding-bottom: 80px;
+
+            a{
+                padding-left: 10px;
+                font-weight: 600;
+            }
         }
-
-    }
-
-    button{
-        background-color: $moon;
-        border-style: none;
-        border-radius: 10px;
-        color: $outer-space;
-        font-family: 'montserrat';
-        font-weight: 400;
-        font-size: 14px;
-
-        span{
-            font-weight: 600;
+    
+        
+    
+        button{
+        
+            background-color: $moon;
+            border-style: none;
+            border-radius: 13px;
+            color: $outer-space;
+            font-family: 'montserrat';
+            font-weight: 400;
+            font-size: 12px;
+            justify-content: right;
+            align-items: right;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            padding-left: 13px;
+            padding-right: 13px;
+            float: right;
+    
+            span{
+                font-weight: 600;
+            }
         }
-
     }
 }

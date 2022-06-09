@@ -4,22 +4,29 @@
 
 .missions{
     background-color: $moon;
-    background-image: url("img/svg/missions-extra.svg");
-    background-image: cover;
+    background-image: url("../img/svg/missions-extra.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 500px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
     
 
     
     button{
-        text-align: center;
+        display: flex;
         justify-content: center;
         padding: 50px;
         font-size: 40px;
         border-style: none;
         border-radius: 60px;
-        margin-left: 600px;
-        margin-top: 350px;
-        margin-bottom: 300px;
         letter-spacing: 1px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 150px;
 
         img{
             width: 50px;

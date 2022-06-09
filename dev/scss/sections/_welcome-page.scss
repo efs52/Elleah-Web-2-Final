@@ -7,11 +7,12 @@
     background-image: url("../img/images/WelcomePlanetBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
     padding-top: 450px;
 
     h3{
-        margin-left: 220px;
-        margin-right: 220px;
+        margin: auto;
+        width: 60%;
         align-items: center;
         text-align: center;
         font-family: "raleway";
@@ -19,27 +20,22 @@
         font-size: 32px;
         line-height: 63px;
         border-top: 2px solid white;
-        padding-top: 100px;
-        padding-bottom: 210px;
+        padding-top: 70px;
+        padding-bottom: 120px;
 
     }
-    
+
     .header1-logo{
-        margin-left: 55px;
-        padding-left: 100px;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
 
     .bar-under-nasa{
-        margin:0;
-        padding:0;
-        justify-content: left;
         display: flex;
-        margin-left: 75px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     button{
-        margin-left: 150px;
         background-color: #060b18;
         font-family: 'Source Sans 3', sans-serif;
         font-size: 18px;
@@ -49,20 +45,24 @@
         color:#f8f9fa;
         border: 2px solid white;
         border-radius: 50px;
+        margin-bottom: 300px;
+        margin-left: 150px;
 
     }
 
 
     h1{
         color: white;
-        padding-top: 27px;
-        padding-left: 100px;
-        margin-left: 55px;
-        padding-bottom: 60px;
+        margin-bottom: 60px;
     }
 
-    div{
-        padding: 20px;
-        padding-bottom: 300px;
+    .welcome-page-content{
+        padding-left: 30px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .header1-logo, .bar-under-nasa, h1{
+        padding-left: 150px;
     }
 }
