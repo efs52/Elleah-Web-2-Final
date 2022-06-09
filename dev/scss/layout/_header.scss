@@ -12,6 +12,17 @@ header{
     width: 100%;
     align-items: center;
 
+    @include md{
+        margin: auto;
+        width: 95%;
+        display: grid;
+        text-align: center;
+        align-items: baseline;
+        margin-right: -10px;
+        
+
+    }
+
     @include lg{
         margin: auto;
         width: 95%;
@@ -59,6 +70,7 @@ header{
             display: flex;
             justify-content: flex-end;
             align-items: center;
+
 
             @include lg{
                 display: none;

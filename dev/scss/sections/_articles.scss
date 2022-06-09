@@ -18,6 +18,14 @@
         align-items: center;
         text-align: center;
 
+        @include md{
+            font-size: 32px;
+        }
+
+        @include lg{
+            font-size: 34px;
+        }
+
         @include xl{
             font-size: 46px;
         }
@@ -35,6 +43,16 @@
         margin-bottom: -92px;
         margin-left: 171px;
 
+        @include md{
+            position: relative;
+            background-color: $outer-space;
+            border: 5px solid $outer-space;
+            margin: auto;
+            width: 70%;
+            margin-bottom: -62px;
+
+        }
+
         @include xl{
             border: 5px solid $outer-space;
             width: 65%;
@@ -50,6 +68,16 @@
             font-weight: 600;
             font-size: 32px;
             justify-content: left;
+
+            @include md{
+                font-size: 22px;
+            }
+
+            @include lg{
+                font-size: 24px;
+
+                
+            }
 
 
             
@@ -76,6 +104,14 @@
             font-size: 20px;
             padding-bottom: 50px;
             margin-top: 0px;
+
+            @include md{
+                font-size: 14px;
+            }
+
+            @include lg{
+                font-size: 16px;
+            }
         }
         
         
@@ -85,6 +121,10 @@
             font-size: 15px;
             line-height: 37px;
             padding-bottom: 80px;
+
+            @include md{
+                font-size: 14px;
+            }
 
             a{
                 padding-left: 10px;
@@ -110,9 +150,14 @@
             padding-left: 13px;
             padding-right: 13px;
             float: right;
+
     
             span{
                 font-weight: 600;
+            }
+
+            @include md{
+                font-size: 10px;
             }
         }
     }

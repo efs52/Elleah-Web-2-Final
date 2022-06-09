@@ -8,6 +8,11 @@
 	justify-content: center;
 	padding-bottom: 250px;
 
+	@include md{
+		background-color: #f8f9fa;
+
+	}
+
 	.gallery-images{
 		margin-top: 30px;
 		margin-bottom: 80px;
@@ -20,6 +25,8 @@
 
 		.g1{
 			grid-area: g1;
+
+
 			.caption-1{
 				color: $outer-space;
 			}
@@ -50,7 +57,23 @@
 
 	.g1, .g2, .g3, .g4{
         padding: 30px;
+
+		@include md{
+			.pic1, .pic2, .pic3, .pic4{
+				width: 90%;
+				height: 90%;
+				object-fit: contain;
+				display: grid;
+				justify-content: center;
+			}
+
+		}
+
     }
+
+	.caption-1, .caption-2, .caption-3, .caption-4{
+		font-size: 12px;
+	}
 
 
     h2{
@@ -62,6 +85,14 @@
         font-size: 48px;
         align-items: center;
         text-align: center;
+
+		@include md{
+			font-size: 32px;
+		}
+
+		@include lg{
+			font-size: 42px;
+		}
 
 		@include xl{
 			font-size: 46px;
@@ -76,6 +107,10 @@
 		font-weight: 600;
 		font-size: 25px;
 		text-align: center;
+
+		@include md{
+			font-size: 16px;
+		}
 	}
 
 	.see-more{
@@ -86,6 +121,14 @@
 		margin-right: 650px;
 		background-color: $moon;
 		padding-bottom: 16px;
+
+		@include md{
+			margin: auto;
+			width: 15%;
+			border-bottom: 5px dotted $outer-space;
+
+		}
+
 
 		@include xl{
 			margin: auto;
@@ -99,12 +142,54 @@
 		justify-content: center;
 		margin-bottom: 20px;
 
+		@include md{
+			margin: auto;
+			width: 70%;
+
+		}
+
+		@include lg{
+			margin: auto;
+			width: 70%;
+
+		}
+
 		.left-arrow{
 			padding-right: 90px;
+
+			@include md{
+				height: 7.04px;
+				padding-right: 50px;
+			}
+
+			@include lg{
+				width: 13.37px;
+				padding-right: 70px;
+			}
 		}
 
 		.right-arrow{
 			padding-left: 90px;
+
+			@include md{
+				height: 7.04px;
+				padding-left: 30px;
+
+			}
+
+			@include lg{
+				width: 13.37px;
+				padding-left: 70px;
+
+			}
+		}
+
+		@include md{
+			padding-bottom: 20px;
+		}
+
+		@include lg{
+			padding-bottom: 15px;
 		}
 	}
 
@@ -143,6 +228,10 @@
 				text-decoration: none;
 				transition: 0.25s;
 				font-family: 'raleway';
+
+				@include md{
+					font-size: 16px;
+				}
 
 				@include xl{
 					font-size: 24px;

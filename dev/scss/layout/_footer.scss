@@ -24,6 +24,10 @@ footer{
                 width: 10px;
             }
         }
+
+        @include md{
+            padding-bottom: 10px;
+        }
     }
 
     .links2{
@@ -38,6 +42,15 @@ footer{
     a{
         padding-bottom: 20px;
         text-align: right;
+
+        @include md{
+            font-size: 10px;
+            padding-bottom: 10px;
+        }
+
+        @include lg{
+            font-size: 12px;
+        }
     }
 
     .social-media-icons{
@@ -47,9 +60,15 @@ footer{
         justify-content: center;
         padding-bottom: 30px;
 
+
+
         img{
             padding-left: 10px;
             padding-right: 10px;
+
+            @include lg{
+                width: 25px;
+            }
         }
     }
     

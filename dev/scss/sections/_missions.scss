@@ -12,6 +12,24 @@
     display: flex;
     justify-content: center;
     margin: auto;
+
+    @include md{
+        background-image: url("../img/svg/missions-extra.svg");
+        background-size: 97%;
+        padding-top: 300px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-top: 200px;
+
+    }
+
+    @include lg{
+        background-image: url("../img/svg/missions-extra.svg");
+        background-size: 97%;
+        padding-top: 300px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
     
     
 
@@ -29,9 +47,34 @@
         margin-bottom: 150px;
         margin-right: 115px;
 
+        @include md{
+            font-size: 28px;
+            padding: 30px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        @include lg{
+            padding: 40px;
+            font-size: 35px;
+            margin-bottom: 120px;
+            
+
+        }
+
         img{
             width: 50px;
             padding-left: 60px;
+
+            @include md{
+                padding-left: 20px;
+                width: 42px;
+                justify-content: center;
+            }
+
+            @include lg{
+                padding-left: 40px;
+            }
         }
 
     }

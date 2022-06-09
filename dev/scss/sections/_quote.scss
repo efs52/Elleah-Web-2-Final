@@ -13,14 +13,33 @@
         margin-left: 200px;
         margin-right: 200px;
 
+        @include md{
+            padding-top: 150px;
+            
+        }
+
         h2{
             font-family: 'raleway';
             font-weight: 500;
             font-size: 48px;
             line-height: 60px;
+
+            @include md{
+                font-size: 29px;
+                margin: auto;
+                width: 105%;
+                padding-bottom: 30px;
+            }
+
+            @include lg{
+                font-size: 29px;
+                line-height: 123%;
+                letter-spacing: 0.5%;
+                padding-bottom: 10px;
+            }
         }
 
-        h3{
+        .theo{
             text-align: center;
             border-top: 1px solid white;
             margin: auto;
@@ -30,10 +49,33 @@
             font-size: 40px;
             font-weight: 600px;
             padding-bottom: 200px;
+
+            @include md{
+                font-size: 28px;
+                margin: auto;
+                width: 78%;
+            }
+
+            @include lg{
+                font-size: 30px;
+                margin: auto;
+                width: 60%;
+            }
+
+
         }
 
         img{
             padding-bottom: 60px;
+
+            @include md{
+                width: 90px;
+            }
+
+            @include lg{
+                width: 100px;
+            }
+            
         }
 
     }
