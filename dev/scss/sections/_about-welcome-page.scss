@@ -25,6 +25,10 @@
         font-weight: 600;
         margin: 0px;
 
+        @include md{
+            font-size: 72px;
+        }
+
         @include lg{
             font-size: 105px;
         }
@@ -34,6 +38,12 @@
         font-size: 24px;
         line-height: 40px;
         padding-bottom: 50px;
+
+        @include md{
+            font-size: 12px;
+            line-height: 25px;
+            letter-spacing: -1.5%;
+        }
 
         @include lg{
             font-size: 20px;
@@ -57,6 +67,10 @@
         grid-area: content;
         margin-left: 100px;
         margin-top: 200px;
+
+        @include md{
+            margin: 0px;
+        }
     }
 
     .image{
@@ -67,6 +81,10 @@
 
         .astronaut{
             width: 85%;
+
+            @include md{
+                padding-left: 70px;
+            }
 
             @include lg{
                 width: 70%;
@@ -85,6 +103,10 @@
         display: grid;
         align-items: right;
 
+        @include md{
+            width: 90px;
+        }
+
     }
 
     button{
@@ -100,6 +122,13 @@
         border-radius: 50px;
         margin-bottom: 230px;
         margin-left: 100px;
+
+        @include md{
+            font-size: 12px;
+            line-height: 150%;
+            width: 150px;
+            height: 35px;
+        }
 
     }
 }

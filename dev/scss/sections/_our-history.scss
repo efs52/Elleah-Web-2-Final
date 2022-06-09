@@ -27,6 +27,10 @@
         margin: auto;
         width: 40%;
         padding-bottom: 40px;
+
+        @include md{
+            font-size: 40px;
+        }
         
     }
 
