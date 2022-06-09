@@ -241,16 +241,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/svg\/Contact-form-Ellipse.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/svg\/Contact-form-Ellipse.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/deploy\/img\/svg\/email.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -426,6 +416,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/svg\/white-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/svg\/white-circle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/svg\/white-circle.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

@@ -11,12 +11,33 @@ header{
     border-bottom: 1px solid white;
     width: 100%;
     align-items: center;
+
+    @include lg{
+        margin: auto;
+        width: 95%;
+        border-bottom: 1px solid white;
+        padding-bottom: 15px;
+    }
+
+    .logo{
+        .site-logo{
+            width: 70px;
+            display: flex;
+            margin-top: 8px;
+
+        }
+    }
     
 
     ul{
         input{
             margin-left: -10px;
             background-color: white;
+
+            @include lg{
+                width: 130px;
+                height: 30px
+            }
             
         }
     }

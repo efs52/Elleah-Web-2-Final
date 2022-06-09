@@ -7,7 +7,7 @@
     .text{
 
         margin: auto;
-        width: 30%;
+        width: 95%;
 
         h2{
             font-family: 'montserrat';
@@ -43,15 +43,31 @@
         }
     }
 
+    .circle{
+        display: block;
+        margin: auto;
+        width: 10%;
+        justify-content: left;
+
+        .circ{
+            margin-left: -450px;
+            margin-bottom: -180px;
+
+
+
+        }
+    }
+
+
     .contact-ques{
 
         background-color: $outer-space;
         border: 3px solid $moon;
         padding-top: 60px;
-        padding-bottom: 250px;
+        padding-bottom: 110px;
         margin-left: 300px;
         margin-right: 300px;
-        margin-bottom: 50px;
+        margin-bottom: 215px;
 
         input{
             border-radius: 7px;
@@ -66,7 +82,7 @@
             border-bottom: 5px dotted $moon;
             padding-bottom: 20px;
             margin: auto;
-            width: 20%;
+            width: 30%;
             margin-bottom: 60px;
 
         }
@@ -95,15 +111,69 @@
         }
 
         .email-input{
+            display: flex;
+            justify-content: center;
+
             .emailad{
-                display: flex;
-                justify-content: center;
+                padding-right: 500px;
+                padding-left: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: 20px;
 
             }
         }
 
-    }
+        .subject-dropdown{
+            display: flex;
+            justify-content: center;
 
+            .subject{
+                padding-right: 500px;
+                padding-left: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: 20px;
+
+            }
+        }
+
+        .message-input{
+            display: flex;
+            justify-content: center;
+
+            .message{
+                padding-right: 500px;
+                padding-left: 30px;
+                padding-top: 5px;
+                padding-bottom: 150px;
+                margin-top: 20px;
+
+
+            }
+        }
+
+        button{
+            background-color: $moon;
+            margin: auto;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            border-style: none;
+            margin-top: 50px;
+
+            .submit{
+                text-align: center;
+                justify-content: center;
+                color: $outer-space;
+                font-family: 'raleway';
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+        }
+
+    }
 
 }
 

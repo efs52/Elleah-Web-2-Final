@@ -5,15 +5,20 @@
 .locations{
 
     h2{
-        display: block;
-        writing-mode: vertical-lr;
-		text-orientation: sideways-left;
-        color: $moon;
+		color: $moon;
         font-family: 'Montserrat';
         font-weight: 600;
-        font-size: 48px;
-        padding-top: 200px;
-        padding-left: 30px;
+        font-size: 55px;
+		margin: 0;
+		white-space: nowrap;
+		position: absolute;
+		text-align: right;
+        display: inline;
+		transform-origin: bottom; 
+		margin-top: 60px;
+		transform: rotate(-90deg);
+		
+		
     }
 
     .map{
@@ -21,6 +26,7 @@
             display: block;
             margin: auto;
             width: 70%;
+            margin-top: 200px;
     }
 
     h3{

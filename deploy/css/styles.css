@@ -477,6 +477,12 @@ nav ul button {
   border: 6.5px white solid;
   border-radius: 50px 0px 0px 50px;
 }
+@media (min-width: 992px) {
+  nav ul button {
+    border: 5px solid #f8f9fa;
+    margin-top: 1px;
+  }
+}
 nav ul button img {
   width: 15px;
 }
@@ -507,7 +513,7 @@ nav ul li a {
   nav ul li {
     margin-bottom: 0;
     margin-left: 16px;
-    padding-left: 24px;
+    padding-left: 18px;
   }
 }
 nav ul li a:link,
@@ -523,6 +529,7 @@ nav ul li a:visited {
   nav ul li a:link,
 nav ul li a:visited {
     color: white;
+    font-size: 16px;
   }
 }
 nav ul li a:link:hover, nav ul li a:link:active,
@@ -547,9 +554,28 @@ header {
   width: 100%;
   align-items: center;
 }
+@media (min-width: 992px) {
+  header {
+    margin: auto;
+    width: 95%;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+  }
+}
+header .logo .site-logo {
+  width: 70px;
+  display: flex;
+  margin-top: 8px;
+}
 header ul input {
   margin-left: -10px;
   background-color: white;
+}
+@media (min-width: 992px) {
+  header ul input {
+    width: 130px;
+    height: 30px;
+  }
 }
 header div {
   grid-area: header;
@@ -654,6 +680,11 @@ footer .social-media-icons img {
 .welcome-page .header1-logo {
   padding-bottom: 30px;
 }
+@media (min-width: 1200px) {
+  .welcome-page .header1-logo {
+    width: 375.96px;
+  }
+}
 .welcome-page .bar-under-nasa {
   display: flex;
   margin-top: 20px;
@@ -672,17 +703,52 @@ footer .social-media-icons img {
   margin-bottom: 300px;
   margin-left: 150px;
 }
+@media (min-width: 992px) {
+  .welcome-page button {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .welcome-page button {
+    margin-left: 100px;
+  }
+}
 .welcome-page h1 {
   color: white;
   margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .welcome-page h1 {
+    font-size: 29px;
+  }
 }
 .welcome-page .welcome-page-content {
   padding-left: 30px;
   margin-bottom: 10px;
   margin-left: 50px;
 }
+@media (min-width: 992px) {
+  .welcome-page .welcome-page-content {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .welcome-page .welcome-page-content {
+    padding-left: 0px;
+  }
+}
 .welcome-page .header1-logo, .welcome-page .bar-under-nasa, .welcome-page h1 {
   padding-left: 150px;
+}
+@media (min-width: 992px) {
+  .welcome-page .header1-logo, .welcome-page .bar-under-nasa, .welcome-page h1 {
+    padding-left: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .welcome-page .header1-logo, .welcome-page .bar-under-nasa, .welcome-page h1 {
+    padding-left: 100px;
+  }
 }
 
 /* =============
@@ -738,6 +804,11 @@ footer .social-media-icons img {
   align-items: center;
   text-align: center;
 }
+@media (min-width: 1200px) {
+  .galleries h2 {
+    font-size: 46px;
+  }
+}
 .galleries a {
   text-decoration: none;
   color: #060b18;
@@ -754,6 +825,13 @@ footer .social-media-icons img {
   margin-right: 650px;
   background-color: #f8f9fa;
   padding-bottom: 16px;
+}
+@media (min-width: 1200px) {
+  .galleries .see-more {
+    margin: auto;
+    width: 17%;
+    margin-bottom: -40px;
+  }
 }
 .galleries .gallery-nav-tabs {
   display: flex;
@@ -773,6 +851,11 @@ footer .social-media-icons img {
   width: 58%;
   margin: auto;
   color: #060b18;
+}
+@media (min-width: 1200px) {
+  .galleries ul {
+    padding-bottom: 20px;
+  }
 }
 @media (min-width: 992px) {
   .galleries ul {
@@ -795,6 +878,13 @@ footer .social-media-icons img {
   font-weight: 300;
   text-decoration: none;
   transition: 0.25s;
+  font-family: "raleway";
+}
+@media (min-width: 1200px) {
+  .galleries ul li a:link,
+.galleries ul li a:visited {
+    font-size: 24px;
+  }
 }
 @media (min-width: 992px) {
   .galleries ul li a:link,
@@ -834,7 +924,7 @@ footer .social-media-icons img {
   text-align: center;
   border-top: 1px solid white;
   margin: auto;
-  width: 40%;
+  width: 50%;
   padding-top: 50px;
   font-family: "Montserrat";
   font-size: 40px;
@@ -853,7 +943,7 @@ footer .social-media-icons img {
   background-image: url("../img/svg/missions-extra.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-top: 500px;
+  padding-top: 400px;
   padding-bottom: 200px;
   display: flex;
   justify-content: center;
@@ -870,6 +960,7 @@ footer .social-media-icons img {
   text-align: center;
   align-items: center;
   margin-bottom: 150px;
+  margin-right: 115px;
 }
 .missions button img {
   width: 50px;
@@ -885,14 +976,19 @@ footer .social-media-icons img {
   justify-content: center;
 }
 .articles h2 {
-  padding-top: 215px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 30px;
   color: #f8f9fa;
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 48px;
   align-items: center;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  .articles h2 {
+    font-size: 46px;
+  }
 }
 .articles .article-title {
   position: relative;
@@ -902,6 +998,12 @@ footer .social-media-icons img {
   width: 70%;
   margin-bottom: -92px;
   margin-left: 171px;
+}
+@media (min-width: 1200px) {
+  .articles .article-title {
+    border: 5px solid #060b18;
+    width: 65%;
+  }
 }
 .articles .article-title h3 {
   font-family: "montserrat";
@@ -918,7 +1020,7 @@ footer .social-media-icons img {
   padding-bottom: 75px;
   padding-left: 40px;
   padding-right: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 .articles .inside-box h4 {
   font-family: "montserrat";
@@ -1010,18 +1112,24 @@ footer .social-media-icons img {
     About Mission
 ============= */
 .about-mission {
-  padding-top: 100px;
-  padding-bottom: 500px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .about-mission h2 {
-  display: block;
-  writing-mode: vertical-lr;
-  text-orientation: sideways-left;
   color: #f8f9fa;
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 48px;
-  padding-left: 60px;
+  font-size: 55px;
+  margin: 0;
+  white-space: nowrap;
+  position: absolute;
+  text-align: left;
+  transform-origin: bottom;
+  margin-top: 200px;
+  transform: rotate(-90deg);
+}
+.about-mission h2, .about-mission .img1 {
+  display: flex;
 }
 .about-mission .mission-images {
   display: grid;
@@ -1034,7 +1142,7 @@ footer .social-media-icons img {
   grid-area: img1;
   margin: 0px;
   justify-content: center;
-  padding-left: 120px;
+  padding-left: 50px;
   padding-bottom: 50px;
 }
 .about-mission .mission-images .img2 {
@@ -1045,12 +1153,15 @@ footer .social-media-icons img {
 }
 .about-mission .mission-images .img3 {
   grid-area: img3;
-  padding-bottom: 50px;
-  padding-left: 120px;
+  padding-left: 100px;
+  /*border-left: 2px solid $moon;
+  margin: auto;
+  height: 150%*/
 }
 .about-mission .mission-images .cap1 {
   grid-area: cap1;
   padding-top: 100px;
+  padding-left: 78px;
 }
 .about-mission .mission-images .cap2 {
   grid-area: cap2;
@@ -1061,6 +1172,7 @@ footer .social-media-icons img {
 .about-mission .mission-images .cap3 {
   grid-area: cap3;
   padding-top: 190px;
+  padding-left: 78px;
 }
 .about-mission .mission-images p {
   font-family: "raleway";
@@ -1180,20 +1292,24 @@ footer .social-media-icons img {
     Locations
 ============= */
 .locations h2 {
-  display: block;
-  writing-mode: vertical-lr;
-  text-orientation: sideways-left;
   color: #f8f9fa;
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 48px;
-  padding-top: 200px;
-  padding-left: 30px;
+  font-size: 55px;
+  margin: 0;
+  white-space: nowrap;
+  position: absolute;
+  text-align: right;
+  display: inline;
+  transform-origin: bottom;
+  margin-top: 60px;
+  transform: rotate(-90deg);
 }
 .locations .map {
   display: block;
   margin: auto;
   width: 70%;
+  margin-top: 200px;
 }
 .locations h3 {
   font-family: "raleway";
@@ -1214,7 +1330,7 @@ footer .social-media-icons img {
 ============= */
 .questions .text {
   margin: auto;
-  width: 30%;
+  width: 95%;
 }
 .questions .text h2 {
   font-family: "montserrat";
@@ -1244,14 +1360,24 @@ footer .social-media-icons img {
   width: 70%;
   padding-bottom: 70px;
 }
+.questions .circle {
+  display: block;
+  margin: auto;
+  width: 10%;
+  justify-content: left;
+}
+.questions .circle .circ {
+  margin-left: -450px;
+  margin-bottom: -180px;
+}
 .questions .contact-ques {
   background-color: #060b18;
   border: 3px solid #f8f9fa;
   padding-top: 60px;
-  padding-bottom: 250px;
+  padding-bottom: 110px;
   margin-left: 300px;
   margin-right: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 215px;
 }
 .questions .contact-ques input {
   border-radius: 7px;
@@ -1265,7 +1391,7 @@ footer .social-media-icons img {
   border-bottom: 5px dotted #f8f9fa;
   padding-bottom: 20px;
   margin: auto;
-  width: 20%;
+  width: 30%;
   margin-bottom: 60px;
 }
 .questions .contact-ques .first-last-names {
@@ -1287,9 +1413,55 @@ footer .social-media-icons img {
   padding-left: 20px;
   margin-right: 50px;
 }
-.questions .contact-ques .email-input .emailad {
+.questions .contact-ques .email-input {
   display: flex;
   justify-content: center;
+}
+.questions .contact-ques .email-input .emailad {
+  padding-right: 500px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+.questions .contact-ques .subject-dropdown {
+  display: flex;
+  justify-content: center;
+}
+.questions .contact-ques .subject-dropdown .subject {
+  padding-right: 500px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+.questions .contact-ques .message-input {
+  display: flex;
+  justify-content: center;
+}
+.questions .contact-ques .message-input .message {
+  padding-right: 500px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 150px;
+  margin-top: 20px;
+}
+.questions .contact-ques button {
+  background-color: #f8f9fa;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-style: none;
+  margin-top: 50px;
+}
+.questions .contact-ques button .submit {
+  text-align: center;
+  justify-content: center;
+  color: #060b18;
+  font-family: "raleway";
+  font-weight: 500;
+  font-size: 18px;
 }
 
 /* =============
@@ -1297,6 +1469,7 @@ footer .social-media-icons img {
 ============= */
 .our-history {
   background-color: #f8f9fa;
+  background-size: cover;
   padding-top: 200px;
 }
 .our-history img {

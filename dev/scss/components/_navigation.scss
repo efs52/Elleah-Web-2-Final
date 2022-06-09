@@ -49,6 +49,11 @@ nav{
 			background-color: white;
 			border: 6.5px white solid;
 			border-radius: 50px 0px 0px 50px;
+
+			@include lg{
+				border: 5px solid $moon;
+				margin-top: 1px;
+			}
 			
 			
 
@@ -61,11 +66,13 @@ nav{
 		input{
 			border-radius: 0px 50px 50px 0px;
 		}
+
 		@include lg {
 			align-items: center;
 			display: flex;
 			justify-content: flex-end;
 			padding-top: 2px;
+			
 		}
 
 		li {
@@ -84,7 +91,7 @@ nav{
 			@include lg {
 				margin-bottom: 0;
 				margin-left: 16px;
-				padding-left: 24px;
+				padding-left: 18px;
 			}
 			a:link,
             a:visited {
@@ -94,8 +101,10 @@ nav{
 				font-weight: 300;
 				text-decoration: none;
 				transition: 0.25s;
+				
 				@include lg {
 					color: white;
+					font-size: 16px;
 				}
 				&:hover,
                 &:active {

@@ -63,6 +63,10 @@
         align-items: center;
         text-align: center;
 
+		@include xl{
+			font-size: 46px;
+		}
+
     }
 
 	a{
@@ -82,6 +86,12 @@
 		margin-right: 650px;
 		background-color: $moon;
 		padding-bottom: 16px;
+
+		@include xl{
+			margin: auto;
+			width: 17%;
+			margin-bottom: -40px;
+		}
 	}
 
 	.gallery-nav-tabs{
@@ -106,6 +116,10 @@
 		margin: auto;
 		color: #060b18;
 
+		@include xl{
+			padding-bottom: 20px;
+		}
+
 		
 		@include lg {
 			align-items: center;
@@ -128,6 +142,12 @@
 				font-weight: 300;
 				text-decoration: none;
 				transition: 0.25s;
+				font-family: 'raleway';
+
+				@include xl{
+					font-size: 24px;
+				}
+
 				@include lg {
 					color: #060b18;
 				}
