@@ -357,6 +357,11 @@ body {
   padding: 0px;
   background-color: #060b18;
 }
+@media (min-width: 576px) {
+  body {
+    width: 100%;
+  }
+}
 @media (min-width: 992px) {
   body .hide-for-lg {
     display: none;
@@ -577,6 +582,15 @@ header .logo .site-logo {
   display: flex;
   margin-top: 8px;
 }
+@media (min-width: 576px) {
+  header .logo .site-logo {
+    margin: auto;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
 header ul input {
   margin-left: -10px;
   background-color: white;
@@ -694,6 +708,15 @@ footer .social-media-icons img {
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 450px;
+}
+@media (min-width: 576px) {
+  .welcome-page {
+    background-image: url("../img/images/WelcomePlanetBackground.png");
+    width: 400px;
+    background-repeat: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 .welcome-page h3 {
   margin: auto;

@@ -12,6 +12,7 @@ header{
     width: 100%;
     align-items: center;
 
+
     @include md{
         margin: auto;
         width: 95%;
@@ -35,6 +36,14 @@ header{
             width: 70px;
             display: flex;
             margin-top: 8px;
+
+            @include sm{
+                margin: auto;
+                width: 60%;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
 
         }
     }
