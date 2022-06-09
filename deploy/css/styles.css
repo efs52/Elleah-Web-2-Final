@@ -972,12 +972,14 @@ footer .social-media-icons img {
   grid-template-columns: auto auto auto;
   margin-left: 100px;
   margin-right: 100px;
+  padding-top: 130px;
+  padding-bottom: 100px;
 }
-.facts .content .fact-1, .facts .content .fact-2, .facts .content .fact-3 {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+.facts .content .fact-1 {
+  padding-right: 110px;
+}
+.facts .content .fact-3 {
+  padding-left: 110px;
 }
 .facts .content .people-icon {
   padding-right: 15px;
@@ -993,6 +995,7 @@ footer .social-media-icons img {
   text-align: center;
   color: #060b18;
   border-bottom: 2px solid #060b18;
+  padding-bottom: 20px;
 }
 .facts p {
   color: #060b18;
@@ -1007,67 +1010,159 @@ footer .social-media-icons img {
     About Mission
 ============= */
 .about-mission {
-  display: grid;
-  grid-template-columns: 130px auto auto 130px;
   padding-top: 100px;
-  padding-bottom: 100px;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 50px auto auto 50px;
-  justify-content: center;
-  grid-template-areas: "m1 . ." ". . m22" "m3 . .";
-}
-.about-mission .m1 {
-  grid-area: m1;
-}
-.about-mission .m1 .caption-1 {
-  color: white;
-  font-family: "raleway";
-  font-weight: 400;
-  font-size: 20px;
-  text-align: left;
-}
-.about-mission .m2 {
-  grid-area: m2;
-}
-.about-mission .m2 .caption-2 {
-  color: white;
-  font-family: "raleway";
-  font-weight: 400;
-  font-size: 20px;
-  text-align: right;
-}
-.about-mission .m3 {
-  grid-area: m3;
-}
-.about-mission .m3 .caption-3 {
-  color: white;
-  font-family: "raleway";
-  font-weight: 400;
-  font-size: 20px;
-  text-align: left;
+  padding-bottom: 500px;
 }
 .about-mission h2 {
   display: block;
   writing-mode: vertical-lr;
+  text-orientation: sideways-left;
+  color: #f8f9fa;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  padding-left: 60px;
+}
+.about-mission .mission-images {
+  display: grid;
+  margin: auto;
+  width: 80%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "img1 cap1" "cap2 img2" "img3 cap3";
+}
+.about-mission .mission-images .img1 {
+  grid-area: img1;
+  margin: 0px;
+  justify-content: center;
+  padding-left: 120px;
+  padding-bottom: 50px;
+}
+.about-mission .mission-images .img2 {
+  grid-area: img2;
+  padding-bottom: 50px;
+  padding-right: 150px;
+  margin-left: 80px;
+}
+.about-mission .mission-images .img3 {
+  grid-area: img3;
+  padding-bottom: 50px;
+  padding-left: 120px;
+}
+.about-mission .mission-images .cap1 {
+  grid-area: cap1;
+  padding-top: 100px;
+}
+.about-mission .mission-images .cap2 {
+  grid-area: cap2;
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 150px;
+}
+.about-mission .mission-images .cap3 {
+  grid-area: cap3;
+  padding-top: 190px;
+}
+.about-mission .mission-images p {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 7%;
 }
 
+/*"m1 caption-1"
+"caption-2 m2"
+"m3 caption-3";
+
+.m1{
+	grid-area: m1;
+}
+
+.caption-1{
+	grid-area: caption-1;
+	color: white;
+	font-family: 'raleway';
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+}
+
+.m2{
+	grid-area: m2;
+}
+
+.caption-2{
+	grid-area: caption-2;
+	color: white;
+	font-family: 'raleway';
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+}
+
+.m3{
+	grid-area: m3;
+}
+
+.caption-3{
+	grid-area: caption-3;
+	color: white;
+	font-family: 'raleway';
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+}*/
 /* =============
     About Welcome Page
 ============= */
+.about-welcome-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "content image";
+}
+.about-welcome-page .title {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "h1" "wormy";
+}
 .about-welcome-page h1 {
+  grid-area: h1;
   font-family: "montserrat";
   font-size: 120px;
   font-weight: 600;
+  margin: 0px;
 }
-.about-welcome-page .about-nasa-worm-logo {
+.about-welcome-page h2 {
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+.about-welcome-page .wormy {
+  grid-area: wormy;
   width: 140px;
+  margin-left: 305px;
+  margin-bottom: 90px;
 }
-.about-welcome-page .astronaut img {
-  justify-content: left;
+.about-welcome-page .content {
+  grid-area: content;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.about-welcome-page .image {
+  grid-area: image;
+  margin: auto;
+  width: 100%;
+  margin-left: 20px;
+}
+.about-welcome-page .image .astronaut {
+  width: 85%;
+}
+.about-welcome-page .about-worm {
+  width: 140px;
+  display: grid;
+  align-items: right;
 }
 .about-welcome-page button {
-  margin-left: 150px;
   background-color: #060b18;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
@@ -1077,14 +1172,40 @@ footer .social-media-icons img {
   color: #f8f9fa;
   border: 2px solid white;
   border-radius: 50px;
-}
-.about-welcome-page .words {
-  justify-content: left;
+  margin-bottom: 230px;
+  margin-left: 100px;
 }
 
 /* =============
     Locations
 ============= */
+.locations h2 {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-left;
+  color: #f8f9fa;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+}
+.locations .map {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.locations h3 {
+  font-family: "raleway";
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 4.5%;
+  display: flex;
+  margin: auto;
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 200px;
+}
+
 /* =============
     Questions
 ============= */
@@ -1118,3 +1239,31 @@ footer .social-media-icons img {
 /* =============
     Contact Us
 ============= */
+.contact {
+  display: grid;
+  background-color: #f8f9fa;
+  margin: auto;
+  width: 100%;
+}
+.contact .contact-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.contact h2, .contact h3, .contact h4 {
+  color: #060b18;
+}
+.contact h2 {
+  font-weight: 600;
+  border-bottom: 2px solid #060b18;
+  margin: auto;
+  width: 40%;
+  justify-content: left;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+.contact h3 {
+  font-family: "montserrat";
+  font-size: 22px;
+  line-height: 150%;
+}

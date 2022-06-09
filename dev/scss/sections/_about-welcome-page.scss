@@ -4,25 +4,68 @@
 
 .about-welcome-page{
 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "content image";
+
+    .title{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "h1"
+        "wormy";
+
+    }
+
     h1{
+        grid-area: h1;
         font-family: 'montserrat';
         font-size: 120px;
         font-weight: 600;
+        margin: 0px;
     }
 
-    .about-nasa-worm-logo{
+    h2{
+        font-size: 24px;
+        line-height: 40px;
+        padding-bottom: 50px;
+    }
+
+    .wormy{
+        grid-area: wormy;
         width: 140px;
+        margin-left: 305px;
+        margin-bottom: 90px;
 
     }
 
-    .astronaut{
-        img{
-            justify-content: left;
+    .content{
+        grid-area: content;
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+
+    .image{
+        grid-area: image;
+        margin: auto;
+        width: 100%;
+        margin-left: 20px;
+
+        .astronaut{
+            width: 85%;
         }
     }
 
+    .about-worm{
+        width: 140px;
+        display: grid;
+        align-items: right;
+
+    }
+
     button{
-        margin-left: 150px;
+        
         background-color: #060b18;
         font-family: 'Source Sans 3', sans-serif;
         font-size: 18px;
@@ -32,10 +75,8 @@
         color:#f8f9fa;
         border: 2px solid white;
         border-radius: 50px;
+        margin-bottom: 230px;
+        margin-left: 100px;
 
-    }
-
-    .words{
-        justify-content: left;
     }
 }

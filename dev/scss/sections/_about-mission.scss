@@ -4,58 +4,123 @@
 
 .about-mission{
 
-    display: grid;
-    grid-template-columns: 130px auto auto 130px;
-    padding-top: 100px;
-	padding-bottom: 100px;
-    justify-content: center;
-    display: grid;
-		grid-template-columns: 50px auto auto 50px;
-		//need to have three columns since grid template
-		//area is divided into 3... ?
-		justify-content: center;
-		grid-template-areas:
-		"m1 . ."
-		". . m22"
-        "m3 . .";
+	padding-top: 100px;
+	padding-bottom: 500px;
 
-		.m1{
-			grid-area: m1;
-			.caption-1{
-				color: white;
-				font-family: 'raleway';
-				font-weight: 400;
-				font-size: 20px;
-				text-align: left;
-			}
-		}
-
-		.m2{
-			grid-area: m2;
-			.caption-2{
-				color: white;
-				font-family: 'raleway';
-				font-weight: 400;
-				font-size: 20px;
-				text-align: right;
-			}
-		}
-
-		.m3{
-			grid-area: m3;
-			.caption-3{
-				color: white;
-				font-family: 'raleway';
-				font-weight: 400;
-				font-size: 20px;
-				text-align: left;
-			}
-			
-		}
-
-		
-    h2{
+	h2{
         display: block;
         writing-mode: vertical-lr;
+		text-orientation: sideways-left;
+		color: $moon;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 48px;
+		padding-left: 60px;
     }
+
+	.mission-images{
+		display: grid;
+		margin: auto;
+		width: 80%;
+		grid-template-columns: 50% 50%;
+		grid-template-areas: 
+		"img1 cap1"
+		"cap2 img2"
+		"img3 cap3";
+		
+	
+		.img1{
+			grid-area: img1;
+			margin: 0px;
+			justify-content: center;
+			padding-left: 120px;
+			padding-bottom: 50px;
+			
+		}
+	
+		.img2{
+			grid-area: img2;
+			padding-bottom: 50px;
+			padding-right: 150px;
+			margin-left: 80px;
+		}
+	
+		.img3{
+			grid-area: img3;
+			padding-bottom: 50px;
+			padding-left: 120px;
+		}
+	
+		.cap1{
+			grid-area: cap1;
+			padding-top: 100px;
+		}
+	
+		.cap2{
+			grid-area: cap2;
+			text-align: right;
+			margin-right: 30px;
+			padding-top: 150px;
+		}
+	
+		.cap3{
+			grid-area: cap3;
+			padding-top: 190px;
+		}
+
+		p{
+			font-family: 'raleway';
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 38px;
+			letter-spacing: 7%;
+		}
+		
+	}
+
 }
+
+
+
+	/*"m1 caption-1"
+	"caption-2 m2"
+	"m3 caption-3";
+
+	.m1{
+		grid-area: m1;
+	}
+
+	.caption-1{
+		grid-area: caption-1;
+		color: white;
+		font-family: 'raleway';
+		font-weight: 400;
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.m2{
+		grid-area: m2;
+	}
+
+	.caption-2{
+		grid-area: caption-2;
+		color: white;
+		font-family: 'raleway';
+		font-weight: 400;
+		font-size: 20px;
+		text-align: right;
+	}
+
+	.m3{
+		grid-area: m3;
+	}
+
+	.caption-3{
+		grid-area: caption-3;
+		color: white;
+		font-family: 'raleway';
+		font-weight: 400;
+		font-size: 20px;
+		text-align: left;
+	}*/

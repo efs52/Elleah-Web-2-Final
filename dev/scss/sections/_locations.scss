@@ -2,3 +2,36 @@
     Locations
 ============= */
 
+.locations{
+
+    h2{
+        writing-mode: vertical-lr;
+        text-orientation: sideways-left;
+        color: $moon;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 48px;
+    }
+
+    .map{
+    
+            display: block;
+            margin: auto;
+            width: 70%;
+    }
+
+    h3{
+        font-family: 'raleway';
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 4.5%;
+        display: flex;
+        margin: auto;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 200px;
+    }
+    
+}

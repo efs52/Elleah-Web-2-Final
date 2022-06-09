@@ -146,11 +146,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/images\/rocketw:circle.png" : {
+    "\/deploy\/img\/images\/rocketcircle.png" : {
       "ft" : 32768,
       "iS" : 510813,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/images\/rocketw:circle.png",
+      "oAP" : "\/deploy\/img\/images\/rocketcircle.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -596,6 +596,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/layout\/_footer.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/layout\/_footer-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
