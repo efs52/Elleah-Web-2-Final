@@ -1057,11 +1057,11 @@ footer .social-media-icons img {
 ============= */
 .about-welcome-page h1 {
   font-family: "montserrat";
-  font-size: 200px;
+  font-size: 120px;
   font-weight: 600;
 }
-.about-welcome-page .about-nasa-worm-logo img {
-  width: 50px;
+.about-welcome-page .about-nasa-worm-logo {
+  width: 140px;
 }
 .about-welcome-page .astronaut img {
   justify-content: left;
@@ -1078,6 +1078,9 @@ footer .social-media-icons img {
   border: 2px solid white;
   border-radius: 50px;
 }
+.about-welcome-page .words {
+  justify-content: left;
+}
 
 /* =============
     Locations
@@ -1092,6 +1095,13 @@ footer .social-media-icons img {
   background-color: #f8f9fa;
   padding-top: 200px;
 }
+.our-history img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 170px;
+  padding-bottom: 200px;
+}
 .our-history h2 {
   color: #060b18;
   font-family: "Montserrat";
@@ -1103,11 +1113,6 @@ footer .social-media-icons img {
   margin: auto;
   width: 40%;
   padding-bottom: 40px;
-}
-.our-history img {
-  align-items: center;
-  justify-content: center;
-  padding-top: 120px;
 }
 
 /* =============

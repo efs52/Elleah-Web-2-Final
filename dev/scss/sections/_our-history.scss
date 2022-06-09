@@ -6,6 +6,15 @@
     background-color: $moon;
     padding-top: 200px;
 
+    img{
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding-top: 170px;
+        padding-bottom: 200px;
+
+    }
+
     h2{
         color: $outer-space;
         font-family: 'Montserrat';
@@ -20,11 +29,5 @@
         
     }
 
-    img{
-        align-items: center;
-        justify-content: center;
-        padding-top: 120px;
-
-    }
 }
 
